@@ -54,6 +54,7 @@ double stateTax;
 }
 - (void)viewDidLoad {
     //[_amountOnHand becomeFirstResponder];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.28 green:0.19 blue:0.59 alpha:1.00];
     [self.closeButton setTitle:nil];
     [self.closeButton setImage:[IonIcons imageWithIcon:ion_ios_calculator_outline size:30.0 color:[UIColor colorWithRed:0.28 green:0.19 blue:0.59 alpha:1.00]]];
     

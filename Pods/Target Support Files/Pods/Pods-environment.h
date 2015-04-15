@@ -6,6 +6,18 @@
 // project.
 
 
+// AMSlideMenu
+#define COCOAPODS_POD_AVAILABLE_AMSlideMenu
+#define COCOAPODS_VERSION_MAJOR_AMSlideMenu 1
+#define COCOAPODS_VERSION_MINOR_AMSlideMenu 5
+#define COCOAPODS_VERSION_PATCH_AMSlideMenu 4
+
+// ASCScreenBrightnessDetector
+#define COCOAPODS_POD_AVAILABLE_ASCScreenBrightnessDetector
+#define COCOAPODS_VERSION_MAJOR_ASCScreenBrightnessDetector 1
+#define COCOAPODS_VERSION_MINOR_ASCScreenBrightnessDetector 0
+#define COCOAPODS_VERSION_PATCH_ASCScreenBrightnessDetector 0
+
 // CRToast
 #define COCOAPODS_POD_AVAILABLE_CRToast
 #define COCOAPODS_VERSION_MAJOR_CRToast 0

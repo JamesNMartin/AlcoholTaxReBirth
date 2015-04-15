@@ -5,18 +5,18 @@
 //  Created by James Martin on 2/3/15.
 //  Copyright (c) 2015 James Martin. All rights reserved.
 //
-
+#import <mach/mach.h>
 #import <UIKit/UIKit.h>
 #import <IonIcons.h>
 #import <ionicons-codes.h>
 #import <MessageUI/MessageUI.h>
 #import <CRToast.h>
 #import "BottleTaxes.h"
+#import <AMSlideMenuProtocols.h>
 
 @interface ViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate, UITextFieldDelegate, UITextViewDelegate>
 
 
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *experimentButton;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 @property (strong, nonatomic) IBOutlet UITextField *salePrice;
 @property (strong, nonatomic) IBOutlet UIButton *helpButton;
@@ -25,7 +25,8 @@
 @property (strong, nonatomic) IBOutlet UISwitch *taxToggle;
 @property (strong, nonatomic) IBOutlet UIButton *heartButton;
 
-//HIDE THOSE LABELS GURL #############################################
+//HIDE YO LABELS GURL #############################################
+@property (strong, nonatomic) IBOutlet UILabel *showTaxesAddedLabel;
 @property (strong, nonatomic) IBOutlet UILabel *stateTaxLabel;
 @property (strong, nonatomic) IBOutlet UILabel *stateTaxLabelPrice;
 @property (strong, nonatomic) IBOutlet UILabel *literTaxLabel;
@@ -39,6 +40,8 @@
 -(IBAction)helpButton:(id)sender;
 -(IBAction)size:(id)sender;
 -(IBAction)heartButton:(id)sender;
+
+-(void)brightnessChanged;
 
 @end
 

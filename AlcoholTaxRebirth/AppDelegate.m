@@ -17,6 +17,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    /*
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    } else {
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    }
+     */
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = [UIColor clearColor];
+    shadow.shadowOffset = CGSizeMake(0, 0);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor whiteColor], NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           [UIFont fontWithName:@"HelveticaNeue-Light" size:20.0], NSFontAttributeName, nil]];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
 }
 

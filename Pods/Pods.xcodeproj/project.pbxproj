@@ -1,1289 +1,896 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>038C9C4952AC016B00146406</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>06E8D6377D6966672B6546AE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ionicons/Pods-ionicons-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0441506C554B0179B2D7276F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ionicons-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06E8D6377D6966672B6546AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ionicons-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0CAFBAE0260BD3247891AA71</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2794AAC621C412DEF44EF89E</string>
-				<string>F11A6D39C710497743694B3F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D39E1E608FC6D7973304260</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0441506C554B0179B2D7276F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0D3CC75459297A70E96E8669</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>06E8D6377D6966672B6546AE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ionicons/Pods-ionicons-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0FBA3BBD271EE82264FB5BDC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>21CF8F45CEF6E9BAC792351A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EFB1415B60D3458092575412</string>
-				<string>C47120E22E0C10A053F8CC40</string>
-				<string>DF667F8526D3C3296145C244</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CRToast</string>
-			<key>productName</key>
-			<string>Pods-CRToast</string>
-			<key>productReference</key>
-			<string>A1B0096AB040FEEA6D085950</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>145251FB8789A5E56446FC40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>1C96F86D2113EE0B20D7041C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2E973C132276457C2F877120</string>
-				<string>06E8D6377D6966672B6546AE</string>
-				<string>0441506C554B0179B2D7276F</string>
-				<string>EBA0BADAD023B86645EA58E9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-ionicons</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1DB312336758408E95F7AC09</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>1FD2F8E1D7C496237021CC36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-CRToast-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>217BC63C4B160318445E66B0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0D3CC75459297A70E96E8669</string>
-				<string>038C9C4952AC016B00146406</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>21CF8F45CEF6E9BAC792351A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EBD9357201EB6A78C1002A2D</string>
-				<string>3FAE7630D42BA2F05E63B6FD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>263456DECAE1CF08FD8B064A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5380C1D8A417D6A6D2B3A334</string>
-				<string>454093FD28849D9E2F4D2954</string>
-				<string>911CB07F960ADAA747438B70</string>
-				<string>1FD2F8E1D7C496237021CC36</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-CRToast</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>274F42435661EEEA092162A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1DB312336758408E95F7AC09</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2794AAC621C412DEF44EF89E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>54014EAAAEB2377977419B13</string>
-				<string>6644049F5625291CE50C035A</string>
-				<string>263456DECAE1CF08FD8B064A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CRToast</string>
-			<key>path</key>
-			<string>CRToast</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A1E44252554926910C29101</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A7268828A23697E53AF0AB20</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AF33ACB1B64FA7C0DA11C0B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2E973C132276457C2F877120</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ionicons.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>33F3B5A04FA4B19F4DFD4C1F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F6A16BAD17AD4F163B4BE1C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3FAE7630D42BA2F05E63B6FD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>454093FD28849D9E2F4D2954</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-CRToast/Pods-CRToast-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>40FBADC070A0F858CD3E72C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41EAFAF3DA6BFFF7FF86DE58</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C20E6AC530B5F57999C0A22E</string>
-				<string>AB9A5C8A56B8A9369AC4B479</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>42251B656957578FFD45FD53</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AC8B46681B19857A913A594D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>454093FD28849D9E2F4D2954</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CRToast-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4876972C134C8576ABE6B064</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4FA2236B1715191F96A71A6A</string>
-				<string>A1B0096AB040FEEA6D085950</string>
-				<string>CC3AF2936E33815C96D84E27</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4FA2236B1715191F96A71A6A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>518EEA6DB0B7E06530D0C86A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>B52FB13DC84C01675B2971D8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>5255A15C146E9F2ECA06A09C</string>
-			<key>remoteInfo</key>
-			<string>Pods-ionicons</string>
-		</dict>
-		<key>51D1B964843A3D19C513C505</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5255A15C146E9F2ECA06A09C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>217BC63C4B160318445E66B0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5D992692B2843BFB48012086</string>
-				<string>98FE6684BA9E7FB9CA54BEB2</string>
-				<string>BA34C9F49CD1942C77F363A7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ionicons</string>
-			<key>productName</key>
-			<string>Pods-ionicons</string>
-			<key>productReference</key>
-			<string>CC3AF2936E33815C96D84E27</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>5380C1D8A417D6A6D2B3A334</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CRToast.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54014EAAAEB2377977419B13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CRToast.h</string>
-			<key>path</key>
-			<string>CRToast/CRToast.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5406454B23DC2E5EF9726521</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2AF33ACB1B64FA7C0DA11C0B</string>
-				<string>C0FCDD306AA5E65CC38924F6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>543D05AC65B19411618EB0C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ionicons-codes.h</string>
-			<key>path</key>
-			<string>ionicons/ionicons-codes.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5896A6E8F9A66D18644AF15E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>543D05AC65B19411618EB0C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>59C47F7653E85CABA042CC7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>145251FB8789A5E56446FC40</string>
-				<string>644260E9B2162ED43AAA34DF</string>
-				<string>0CAFBAE0260BD3247891AA71</string>
-				<string>4876972C134C8576ABE6B064</string>
-				<string>42251B656957578FFD45FD53</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D992692B2843BFB48012086</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C81589652A0A515AEC95C35C</string>
-				<string>0D39E1E608FC6D7973304260</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5F424DB1800B3B2E1E4C8E78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IonIcons.m</string>
-			<key>path</key>
-			<string>ionicons/IonIcons.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61AED5FB1E4C59B454596CFF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>B52FB13DC84C01675B2971D8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>0FBA3BBD271EE82264FB5BDC</string>
-			<key>remoteInfo</key>
-			<string>Pods-CRToast</string>
-		</dict>
-		<key>644260E9B2162ED43AAA34DF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>274F42435661EEEA092162A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6602047BDA86E225CE4D9382</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-CRToast</string>
-			<key>target</key>
-			<string>0FBA3BBD271EE82264FB5BDC</string>
-			<key>targetProxy</key>
-			<string>61AED5FB1E4C59B454596CFF</string>
-		</dict>
-		<key>6644049F5625291CE50C035A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CRToast.m</string>
-			<key>path</key>
-			<string>CRToast/CRToast.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>686CCF97F71EBDB92E5BD792</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6644049F5625291CE50C035A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>69CA15A7A87FC08B0AEF32BD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1DB312336758408E95F7AC09</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6B06967AB2B78F7998386B20</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D2B870D81E21DF59B27BA5E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A2CE46DB7E1157B0C1B7F23</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-ionicons</string>
-			<key>target</key>
-			<string>5255A15C146E9F2ECA06A09C</string>
-			<key>targetProxy</key>
-			<string>518EEA6DB0B7E06530D0C86A</string>
-		</dict>
-		<key>911CB07F960ADAA747438B70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CRToast-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98FE6684BA9E7FB9CA54BEB2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>69CA15A7A87FC08B0AEF32BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9CBCF0D6A7B57D25531421AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>911CB07F960ADAA747438B70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A1B0096AB040FEEA6D085950</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-CRToast.a</string>
-			<key>path</key>
-			<string>libPods-CRToast.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A7268828A23697E53AF0AB20</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IonIcons.h</string>
-			<key>path</key>
-			<string>ionicons/IonIcons.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A72DAA15C1487624B5B61472</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA78607803663F08CE24323F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AAE7CF36474B09620AD5C218</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FC34CC32F7B456E1C05BB802</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AB9A5C8A56B8A9369AC4B479</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AA78607803663F08CE24323F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AC8B46681B19857A913A594D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>40FBADC070A0F858CD3E72C6</string>
-				<string>DEA6418A796982A596E4D527</string>
-				<string>A72DAA15C1487624B5B61472</string>
-				<string>6D2B870D81E21DF59B27BA5E</string>
-				<string>51D1B964843A3D19C513C505</string>
-				<string>6B06967AB2B78F7998386B20</string>
-				<string>AA78607803663F08CE24323F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE30FF3607ED525F74B4F999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54014EAAAEB2377977419B13</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B52FB13DC84C01675B2971D8</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>5406454B23DC2E5EF9726521</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>59C47F7653E85CABA042CC7B</string>
-			<key>productRefGroup</key>
-			<string>4876972C134C8576ABE6B064</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>DF492F3983828A35E0831431</string>
-				<string>0FBA3BBD271EE82264FB5BDC</string>
-				<string>5255A15C146E9F2ECA06A09C</string>
-			</array>
-		</dict>
-		<key>B9DD56A3A43674EBD0D442B9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDD15EF6813859E0A6A5042A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA34C9F49CD1942C77F363A7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2A1E44252554926910C29101</string>
-				<string>5896A6E8F9A66D18644AF15E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0FCDD306AA5E65CC38924F6</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C20E6AC530B5F57999C0A22E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6B06967AB2B78F7998386B20</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C47120E22E0C10A053F8CC40</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E50E51E0EDCB3886A9CEB881</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C81589652A0A515AEC95C35C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F424DB1800B3B2E1E4C8E78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>CC3AF2936E33815C96D84E27</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-ionicons.a</string>
-			<key>path</key>
-			<string>libPods-ionicons.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DEA6418A796982A596E4D527</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF492F3983828A35E0831431</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>41EAFAF3DA6BFFF7FF86DE58</string>
-			<key>buildPhases</key>
-			<array>
-				<string>33F3B5A04FA4B19F4DFD4C1F</string>
-				<string>AAE7CF36474B09620AD5C218</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6602047BDA86E225CE4D9382</string>
-				<string>7A2CE46DB7E1157B0C1B7F23</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>4FA2236B1715191F96A71A6A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>DF667F8526D3C3296145C244</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AE30FF3607ED525F74B4F999</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E50E51E0EDCB3886A9CEB881</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1DB312336758408E95F7AC09</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBA0BADAD023B86645EA58E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ionicons-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBD9357201EB6A78C1002A2D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>454093FD28849D9E2F4D2954</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-CRToast/Pods-CRToast-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EFB1415B60D3458092575412</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>686CCF97F71EBDB92E5BD792</string>
-				<string>9CBCF0D6A7B57D25531421AF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F11A6D39C710497743694B3F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A7268828A23697E53AF0AB20</string>
-				<string>5F424DB1800B3B2E1E4C8E78</string>
-				<string>543D05AC65B19411618EB0C4</string>
-				<string>B9DD56A3A43674EBD0D442B9</string>
-				<string>1C96F86D2113EE0B20D7041C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ionicons</string>
-			<key>path</key>
-			<string>ionicons</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6A16BAD17AD4F163B4BE1C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A72DAA15C1487624B5B61472</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC34CC32F7B456E1C05BB802</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1DB312336758408E95F7AC09</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDD15EF6813859E0A6A5042A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ionicons.ttf</string>
-			<key>path</key>
-			<string>ionicons/ionicons.ttf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>B52FB13DC84C01675B2971D8</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AA7B1423A5A39EA6FE583A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC95074D966B78DE8E6BB332 /* Foundation.framework */; };
+		10EF5E594CDB1DBE24F6B9B7 /* Pods-CRToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31205882B632EF9508F3566B /* Pods-CRToast-dummy.m */; };
+		1162DC355B3E29819DD2C7D7 /* AMSlideMenuContentSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1092F5AF6E6E11E7655E2708 /* AMSlideMenuContentSegue.h */; };
+		23794F5128C05874A25B0381 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2137062517E0042E82190F5B /* Pods-dummy.m */; };
+		328A12D41BAEC9128E4EED81 /* Pods-ASCScreenBrightnessDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7938C4B6BF90ED0D7FB5DF /* Pods-ASCScreenBrightnessDetector-dummy.m */; };
+		3C31C2150BB5A8622DB66B52 /* CRToast.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0ABD64818627E7CD3F6255 /* CRToast.h */; };
+		60CE1772F7CD3A0DA7C3D26B /* Pods-AMSlideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F54C10014C41D87D79E03606 /* Pods-AMSlideMenu-dummy.m */; };
+		66919AFB9959E9B8910AFC1D /* ASCScreenBrightnessDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8893E2928E7D7AAC5A7039 /* ASCScreenBrightnessDetector.h */; };
+		6783F9127B3F24709B186FB4 /* IonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4C78D9A4FAAE44D730ACF2 /* IonIcons.h */; };
+		72398DC18A6FAAFDD29D7976 /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BC768F91EEA9AFCBB05C9 /* IonIcons.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73002070840D1E4705633133 /* CRToast.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B0AB9DBB8F2FBAF8EC64E3 /* CRToast.m */; };
+		7C0F11A74FBA16520D3B767D /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09C996ADFD083F5000C760C /* AMSlideMenuRightTableViewController.m */; };
+		7CC83BDA593C93EFA9FF68AE /* ASCScreenBrightnessDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD3F38D359815BC301E3365 /* ASCScreenBrightnessDetector.m */; };
+		845E91585E26ED82F786E45B /* AMSlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6039E443EB586F655D1B70 /* AMSlideMenuLeftTableViewController.m */; };
+		89DE82B867670F0B5EE2204E /* AMSlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 662415443A48FE2BD4DFEB81 /* AMSlideMenuLeftMenuSegue.m */; };
+		8A013A3AD4E9A72C0E403C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC95074D966B78DE8E6BB332 /* Foundation.framework */; };
+		973ABC61F0160F6BFFFE1008 /* Pods-ionicons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 606D2CC2719FF9EE7D1BB4CE /* Pods-ionicons-dummy.m */; };
+		A57D60C341DF8FAF6E57910A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC95074D966B78DE8E6BB332 /* Foundation.framework */; };
+		AD8CFC515DB8202E50ABB876 /* UIViewController+AMSlideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 35AB1EF0AE86FF709A464A3C /* UIViewController+AMSlideMenu.h */; };
+		B4D7693E5578B16525D9F216 /* AMSlideMenuRightMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1067E5645757964747C1C58D /* AMSlideMenuRightMenuSegue.h */; };
+		B620A28DD6D07C686D515EEA /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B1D7E8338A5B0E0986354 /* UIViewController+AMSlideMenu.m */; };
+		C0C4BDA367803A33172C0FD0 /* AMSlideMenuLeftMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = F7AD13D3090E440C867E3729 /* AMSlideMenuLeftMenuSegue.h */; };
+		C479E3291005BDDBC5FEBA10 /* ionicons-codes.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D339658A86F3081CCEDCF4 /* ionicons-codes.h */; };
+		CBCF76454B7DDD86BE49E83A /* AMSlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A3769492CE8A1E52F6158A /* AMSlideMenuContentSegue.m */; };
+		D22CE7B6216C063D7E9505A1 /* AMSlideMenuMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA9CAD82535BA3981B643FE /* AMSlideMenuMainViewController.h */; };
+		DB480026628461E3C592A2E0 /* AMSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEB95940C3720BEAFFB8DE /* AMSlideMenuMainViewController.m */; };
+		DD6224BA36E4D44D161A5EF1 /* AMSlideMenuProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 7127F8C08E0F164CD687DE13 /* AMSlideMenuProtocols.h */; };
+		E253D18F1282E1111E868626 /* AMSlideMenuRightTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5845096405F2574E7367D5F /* AMSlideMenuRightTableViewController.h */; };
+		EC384F35071C0D106DC9BC27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC95074D966B78DE8E6BB332 /* Foundation.framework */; };
+		F8E494493F12A10654720E5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC95074D966B78DE8E6BB332 /* Foundation.framework */; };
+		F9A9B72C29930913F0644994 /* AMSlideMenuRightMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6338D84E77E85DD3FC3E5B91 /* AMSlideMenuRightMenuSegue.m */; };
+		FF15A9F3C6F6284914E75134 /* AMSlideMenuLeftTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFE21193E10CA2F4EE3B537 /* AMSlideMenuLeftTableViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0467B9655ACA0CEEC1E52164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90226416999F895458D00D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4A406ED8F938D385DF395B;
+			remoteInfo = "Pods-ASCScreenBrightnessDetector";
+		};
+		41A4E590B2E3D95470420280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90226416999F895458D00D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133E367CCF174CD55E7B1DCE;
+			remoteInfo = "Pods-AMSlideMenu";
+		};
+		7A92C1F4F0A9F24A79BFA288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90226416999F895458D00D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E47D141A07E61BC602748C;
+			remoteInfo = "Pods-CRToast";
+		};
+		FE1AD1081B6B3346B0773E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90226416999F895458D00D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1392B4D9532A913802DE099C;
+			remoteInfo = "Pods-ionicons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DBEB95940C3720BEAFFB8DE /* AMSlideMenuMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuMainViewController.m; path = AMSlideMenu/AMSlideMenuMainViewController.m; sourceTree = "<group>"; };
+		1067E5645757964747C1C58D /* AMSlideMenuRightMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightMenuSegue.h; path = AMSlideMenu/AMSlideMenuRightMenuSegue.h; sourceTree = "<group>"; };
+		1092F5AF6E6E11E7655E2708 /* AMSlideMenuContentSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuContentSegue.h; path = AMSlideMenu/AMSlideMenuContentSegue.h; sourceTree = "<group>"; };
+		120314C54EBC925C42836BCB /* libPods-CRToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRToast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A5068F758EC11B8A728FC7 /* Pods-AMSlideMenu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSlideMenu-Private.xcconfig"; sourceTree = "<group>"; };
+		2137062517E0042E82190F5B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		29FFF2935B08875DB7B14CA9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		2C9BC768F91EEA9AFCBB05C9 /* IonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IonIcons.m; path = ionicons/IonIcons.m; sourceTree = "<group>"; };
+		2F41811E7AEAFA693D532AE8 /* Pods-CRToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRToast-prefix.pch"; sourceTree = "<group>"; };
+		31205882B632EF9508F3566B /* Pods-CRToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRToast-dummy.m"; sourceTree = "<group>"; };
+		35AB1EF0AE86FF709A464A3C /* UIViewController+AMSlideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AMSlideMenu.h"; path = "AMSlideMenu/UIViewController+AMSlideMenu.h"; sourceTree = "<group>"; };
+		3C6039E443EB586F655D1B70 /* AMSlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftTableViewController.m; path = AMSlideMenu/AMSlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
+		3C861FD85146D39B5A0C3022 /* Pods-AMSlideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMSlideMenu-prefix.pch"; sourceTree = "<group>"; };
+		4DD0155106CB91CEC64A6A71 /* Pods-CRToast-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRToast-Private.xcconfig"; sourceTree = "<group>"; };
+		53901D3FD5AF9ED082BAE5BC /* Pods-ionicons-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ionicons-Private.xcconfig"; sourceTree = "<group>"; };
+		5E1E2A5E08D7FD79FA1E74AB /* Pods-ionicons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ionicons-prefix.pch"; sourceTree = "<group>"; };
+		606D2CC2719FF9EE7D1BB4CE /* Pods-ionicons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ionicons-dummy.m"; sourceTree = "<group>"; };
+		6338D84E77E85DD3FC3E5B91 /* AMSlideMenuRightMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightMenuSegue.m; path = AMSlideMenu/AMSlideMenuRightMenuSegue.m; sourceTree = "<group>"; };
+		662415443A48FE2BD4DFEB81 /* AMSlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftMenuSegue.m; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
+		7127F8C08E0F164CD687DE13 /* AMSlideMenuProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuProtocols.h; path = AMSlideMenu/AMSlideMenuProtocols.h; sourceTree = "<group>"; };
+		7967F8E2561CFB2717A95901 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		7DFE21193E10CA2F4EE3B537 /* AMSlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftTableViewController.h; path = AMSlideMenu/AMSlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
+		8378D256DC323E6822D7CD77 /* Pods-ionicons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ionicons.xcconfig"; sourceTree = "<group>"; };
+		86E8F7C6B593C7D1093EABB6 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B4FE19A636010602A8A5CFE /* Pods-AMSlideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSlideMenu.xcconfig"; sourceTree = "<group>"; };
+		910338078086851891A5328A /* Pods-ASCScreenBrightnessDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASCScreenBrightnessDetector.xcconfig"; sourceTree = "<group>"; };
+		9A4B1D7E8338A5B0E0986354 /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AMSlideMenu.m"; path = "AMSlideMenu/UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
+		9D4C78D9A4FAAE44D730ACF2 /* IonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IonIcons.h; path = ionicons/IonIcons.h; sourceTree = "<group>"; };
+		9F7938C4B6BF90ED0D7FB5DF /* Pods-ASCScreenBrightnessDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASCScreenBrightnessDetector-dummy.m"; sourceTree = "<group>"; };
+		A1AC2D10BC7C2922B56CA176 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB36FDA49F53CF9BD302FE32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFD1C38FE9BE277C9115D28 /* libPods-AMSlideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMSlideMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B042DA50B9EC070D2395EE91 /* Pods-ASCScreenBrightnessDetector-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASCScreenBrightnessDetector-Private.xcconfig"; sourceTree = "<group>"; };
+		B4914844688A482F044A8991 /* libPods-ASCScreenBrightnessDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASCScreenBrightnessDetector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A3769492CE8A1E52F6158A /* AMSlideMenuContentSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuContentSegue.m; path = AMSlideMenu/AMSlideMenuContentSegue.m; sourceTree = "<group>"; };
+		BBB9A8BD23FC5E22551B2241 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE17B26FB8814CEF48F4147D /* libPods-ionicons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ionicons.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BFCD01C6F64C6C1F70E782 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		C5845096405F2574E7367D5F /* AMSlideMenuRightTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightTableViewController.h; path = AMSlideMenu/AMSlideMenuRightTableViewController.h; sourceTree = "<group>"; };
+		C5D339658A86F3081CCEDCF4 /* ionicons-codes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ionicons-codes.h"; path = "ionicons/ionicons-codes.h"; sourceTree = "<group>"; };
+		CA8893E2928E7D7AAC5A7039 /* ASCScreenBrightnessDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCScreenBrightnessDetector.h; path = Classes/ASCScreenBrightnessDetector.h; sourceTree = "<group>"; };
+		CFA9CAD82535BA3981B643FE /* AMSlideMenuMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuMainViewController.h; path = AMSlideMenu/AMSlideMenuMainViewController.h; sourceTree = "<group>"; };
+		D8A46782E54E97A019D2DABC /* Pods-ASCScreenBrightnessDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASCScreenBrightnessDetector-prefix.pch"; sourceTree = "<group>"; };
+		DA0ABD64818627E7CD3F6255 /* CRToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToast.h; path = CRToast/CRToast.h; sourceTree = "<group>"; };
+		DBD3F38D359815BC301E3365 /* ASCScreenBrightnessDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASCScreenBrightnessDetector.m; path = Classes/ASCScreenBrightnessDetector.m; sourceTree = "<group>"; };
+		DC95074D966B78DE8E6BB332 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E09C996ADFD083F5000C760C /* AMSlideMenuRightTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightTableViewController.m; path = AMSlideMenu/AMSlideMenuRightTableViewController.m; sourceTree = "<group>"; };
+		E2B0AB9DBB8F2FBAF8EC64E3 /* CRToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToast.m; path = CRToast/CRToast.m; sourceTree = "<group>"; };
+		EECEDBC89BDE99531D62EFAD /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		F42E6DAA2110D1FAB2C24CC4 /* Pods-CRToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRToast.xcconfig"; sourceTree = "<group>"; };
+		F54C10014C41D87D79E03606 /* Pods-AMSlideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMSlideMenu-dummy.m"; sourceTree = "<group>"; };
+		F7AD13D3090E440C867E3729 /* AMSlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftMenuSegue.h; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
+		FBF06267BF9527D08D0EF835 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ionicons.ttf; path = ionicons/ionicons.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211BAF01D3F79D693A38C6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57D60C341DF8FAF6E57910A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3715AD99F00CEE85785942A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A013A3AD4E9A72C0E403C5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383EE39CDE221EE0ED1B9146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AA7B1423A5A39EA6FE583A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29AA2C97245E94F346EB5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC384F35071C0D106DC9BC27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7583659C8E2F3255DC71D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E494493F12A10654720E5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EB384118A8E3FB6C9A8F24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66ED4ABFA6A25A0D8454834 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BD0AA4C48428CBFD3C5AF02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB36FDA49F53CF9BD302FE32 /* libPods.a */,
+				ABFD1C38FE9BE277C9115D28 /* libPods-AMSlideMenu.a */,
+				B4914844688A482F044A8991 /* libPods-ASCScreenBrightnessDetector.a */,
+				120314C54EBC925C42836BCB /* libPods-CRToast.a */,
+				BE17B26FB8814CEF48F4147D /* libPods-ionicons.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4590A44AD61984AFFE4129D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8378D256DC323E6822D7CD77 /* Pods-ionicons.xcconfig */,
+				53901D3FD5AF9ED082BAE5BC /* Pods-ionicons-Private.xcconfig */,
+				606D2CC2719FF9EE7D1BB4CE /* Pods-ionicons-dummy.m */,
+				5E1E2A5E08D7FD79FA1E74AB /* Pods-ionicons-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ionicons";
+			sourceTree = "<group>";
+		};
+		557396276153A063496758D7 /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C78D9A4FAAE44D730ACF2 /* IonIcons.h */,
+				2C9BC768F91EEA9AFCBB05C9 /* IonIcons.m */,
+				C5D339658A86F3081CCEDCF4 /* ionicons-codes.h */,
+				BC08F1D25AB25AA1A594CF3F /* Resources */,
+				4590A44AD61984AFFE4129D0 /* Support Files */,
+			);
+			path = ionicons;
+			sourceTree = "<group>";
+		};
+		62BD428BBCFDC7BC1CC17864 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B484C1FE300772E038F38D /* AMSlideMenu */,
+				91E805F0C7B8C8F002B59CD4 /* ASCScreenBrightnessDetector */,
+				B06E5E7F904A50AA13083522 /* CRToast */,
+				557396276153A063496758D7 /* ionicons */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91E805F0C7B8C8F002B59CD4 /* ASCScreenBrightnessDetector */ = {
+			isa = PBXGroup;
+			children = (
+				CA8893E2928E7D7AAC5A7039 /* ASCScreenBrightnessDetector.h */,
+				DBD3F38D359815BC301E3365 /* ASCScreenBrightnessDetector.m */,
+				BCBF35BE8218CCC245BF8A5C /* Support Files */,
+			);
+			path = ASCScreenBrightnessDetector;
+			sourceTree = "<group>";
+		};
+		92B484C1FE300772E038F38D /* AMSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1092F5AF6E6E11E7655E2708 /* AMSlideMenuContentSegue.h */,
+				B8A3769492CE8A1E52F6158A /* AMSlideMenuContentSegue.m */,
+				F7AD13D3090E440C867E3729 /* AMSlideMenuLeftMenuSegue.h */,
+				662415443A48FE2BD4DFEB81 /* AMSlideMenuLeftMenuSegue.m */,
+				7DFE21193E10CA2F4EE3B537 /* AMSlideMenuLeftTableViewController.h */,
+				3C6039E443EB586F655D1B70 /* AMSlideMenuLeftTableViewController.m */,
+				CFA9CAD82535BA3981B643FE /* AMSlideMenuMainViewController.h */,
+				0DBEB95940C3720BEAFFB8DE /* AMSlideMenuMainViewController.m */,
+				7127F8C08E0F164CD687DE13 /* AMSlideMenuProtocols.h */,
+				1067E5645757964747C1C58D /* AMSlideMenuRightMenuSegue.h */,
+				6338D84E77E85DD3FC3E5B91 /* AMSlideMenuRightMenuSegue.m */,
+				C5845096405F2574E7367D5F /* AMSlideMenuRightTableViewController.h */,
+				E09C996ADFD083F5000C760C /* AMSlideMenuRightTableViewController.m */,
+				35AB1EF0AE86FF709A464A3C /* UIViewController+AMSlideMenu.h */,
+				9A4B1D7E8338A5B0E0986354 /* UIViewController+AMSlideMenu.m */,
+				E0930507FF86E5D546DE5EAB /* Support Files */,
+			);
+			path = AMSlideMenu;
+			sourceTree = "<group>";
+		};
+		A82991E59A81865CA5325366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86E8F7C6B593C7D1093EABB6 /* Pods-acknowledgements.markdown */,
+				BBB9A8BD23FC5E22551B2241 /* Pods-acknowledgements.plist */,
+				2137062517E0042E82190F5B /* Pods-dummy.m */,
+				7967F8E2561CFB2717A95901 /* Pods-environment.h */,
+				EECEDBC89BDE99531D62EFAD /* Pods-resources.sh */,
+				29FFF2935B08875DB7B14CA9 /* Pods.debug.xcconfig */,
+				C0BFCD01C6F64C6C1F70E782 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B06E5E7F904A50AA13083522 /* CRToast */ = {
+			isa = PBXGroup;
+			children = (
+				DA0ABD64818627E7CD3F6255 /* CRToast.h */,
+				E2B0AB9DBB8F2FBAF8EC64E3 /* CRToast.m */,
+				CB634DE42745A50EDBF64A18 /* Support Files */,
+			);
+			path = CRToast;
+			sourceTree = "<group>";
+		};
+		BC08F1D25AB25AA1A594CF3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBF06267BF9527D08D0EF835 /* ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BCBF35BE8218CCC245BF8A5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				910338078086851891A5328A /* Pods-ASCScreenBrightnessDetector.xcconfig */,
+				B042DA50B9EC070D2395EE91 /* Pods-ASCScreenBrightnessDetector-Private.xcconfig */,
+				9F7938C4B6BF90ED0D7FB5DF /* Pods-ASCScreenBrightnessDetector-dummy.m */,
+				D8A46782E54E97A019D2DABC /* Pods-ASCScreenBrightnessDetector-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ASCScreenBrightnessDetector";
+			sourceTree = "<group>";
+		};
+		BF55A6C7426605F445EEB0B0 = {
+			isa = PBXGroup;
+			children = (
+				A1AC2D10BC7C2922B56CA176 /* Podfile */,
+				03EB384118A8E3FB6C9A8F24 /* Frameworks */,
+				62BD428BBCFDC7BC1CC17864 /* Pods */,
+				3BD0AA4C48428CBFD3C5AF02 /* Products */,
+				CC08A6D70F71C6AA80FBB6CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CB634DE42745A50EDBF64A18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F42E6DAA2110D1FAB2C24CC4 /* Pods-CRToast.xcconfig */,
+				4DD0155106CB91CEC64A6A71 /* Pods-CRToast-Private.xcconfig */,
+				31205882B632EF9508F3566B /* Pods-CRToast-dummy.m */,
+				2F41811E7AEAFA693D532AE8 /* Pods-CRToast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CRToast";
+			sourceTree = "<group>";
+		};
+		CC08A6D70F71C6AA80FBB6CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A82991E59A81865CA5325366 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0930507FF86E5D546DE5EAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FE19A636010602A8A5CFE /* Pods-AMSlideMenu.xcconfig */,
+				12A5068F758EC11B8A728FC7 /* Pods-AMSlideMenu-Private.xcconfig */,
+				F54C10014C41D87D79E03606 /* Pods-AMSlideMenu-dummy.m */,
+				3C861FD85146D39B5A0C3022 /* Pods-AMSlideMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AMSlideMenu";
+			sourceTree = "<group>";
+		};
+		F66ED4ABFA6A25A0D8454834 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC95074D966B78DE8E6BB332 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22993B147F9BD0C948761E8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66919AFB9959E9B8910AFC1D /* ASCScreenBrightnessDetector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71194E756911B4337DDC0C51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6783F9127B3F24709B186FB4 /* IonIcons.h in Headers */,
+				C479E3291005BDDBC5FEBA10 /* ionicons-codes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05F9DF6D1502F7FEC2D17D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C31C2150BB5A8622DB66B52 /* CRToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1DB471C9F3BACCEA676832 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1162DC355B3E29819DD2C7D7 /* AMSlideMenuContentSegue.h in Headers */,
+				C0C4BDA367803A33172C0FD0 /* AMSlideMenuLeftMenuSegue.h in Headers */,
+				FF15A9F3C6F6284914E75134 /* AMSlideMenuLeftTableViewController.h in Headers */,
+				D22CE7B6216C063D7E9505A1 /* AMSlideMenuMainViewController.h in Headers */,
+				DD6224BA36E4D44D161A5EF1 /* AMSlideMenuProtocols.h in Headers */,
+				B4D7693E5578B16525D9F216 /* AMSlideMenuRightMenuSegue.h in Headers */,
+				E253D18F1282E1111E868626 /* AMSlideMenuRightTableViewController.h in Headers */,
+				AD8CFC515DB8202E50ABB876 /* UIViewController+AMSlideMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		133E367CCF174CD55E7B1DCE /* Pods-AMSlideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9086C51FD6ED84D56AE832B4 /* Build configuration list for PBXNativeTarget "Pods-AMSlideMenu" */;
+			buildPhases = (
+				5E6494D30A7BB9FA55820B66 /* Sources */,
+				E7583659C8E2F3255DC71D22 /* Frameworks */,
+				FA1DB471C9F3BACCEA676832 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AMSlideMenu";
+			productName = "Pods-AMSlideMenu";
+			productReference = ABFD1C38FE9BE277C9115D28 /* libPods-AMSlideMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1392B4D9532A913802DE099C /* Pods-ionicons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5392905EA690328D4B3B9D40 /* Build configuration list for PBXNativeTarget "Pods-ionicons" */;
+			buildPhases = (
+				A11A55CDECB335B2BF92FF75 /* Sources */,
+				3715AD99F00CEE85785942A2 /* Frameworks */,
+				71194E756911B4337DDC0C51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ionicons";
+			productName = "Pods-ionicons";
+			productReference = BE17B26FB8814CEF48F4147D /* libPods-ionicons.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2047113CB2A6E14FAC35CAB0 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D6257D88A186CA0BAACBB2 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				DD762482511372F586A7F9C1 /* Sources */,
+				211BAF01D3F79D693A38C6B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5463ED4F9740D8B9F333E73A /* PBXTargetDependency */,
+				78CE99E665C7C1220CC56C5B /* PBXTargetDependency */,
+				CE0FAA3FC65C2E4CAFA348DF /* PBXTargetDependency */,
+				8C3A640159F2D04547D59448 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = AB36FDA49F53CF9BD302FE32 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4C4A406ED8F938D385DF395B /* Pods-ASCScreenBrightnessDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D77351EEAC1EC2E2B26F76B /* Build configuration list for PBXNativeTarget "Pods-ASCScreenBrightnessDetector" */;
+			buildPhases = (
+				98A72ADFE47001FDDE8EE33D /* Sources */,
+				383EE39CDE221EE0ED1B9146 /* Frameworks */,
+				22993B147F9BD0C948761E8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASCScreenBrightnessDetector";
+			productName = "Pods-ASCScreenBrightnessDetector";
+			productReference = B4914844688A482F044A8991 /* libPods-ASCScreenBrightnessDetector.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1E47D141A07E61BC602748C /* Pods-CRToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561293520E52829623A03B1F /* Build configuration list for PBXNativeTarget "Pods-CRToast" */;
+			buildPhases = (
+				B240C01D311A7C7C2CD30D74 /* Sources */,
+				E29AA2C97245E94F346EB5A9 /* Frameworks */,
+				D05F9DF6D1502F7FEC2D17D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CRToast";
+			productName = "Pods-CRToast";
+			productReference = 120314C54EBC925C42836BCB /* libPods-CRToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90226416999F895458D00D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 5660AB8C2A518EF6C4863A97 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF55A6C7426605F445EEB0B0;
+			productRefGroup = 3BD0AA4C48428CBFD3C5AF02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2047113CB2A6E14FAC35CAB0 /* Pods */,
+				133E367CCF174CD55E7B1DCE /* Pods-AMSlideMenu */,
+				4C4A406ED8F938D385DF395B /* Pods-ASCScreenBrightnessDetector */,
+				E1E47D141A07E61BC602748C /* Pods-CRToast */,
+				1392B4D9532A913802DE099C /* Pods-ionicons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E6494D30A7BB9FA55820B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF76454B7DDD86BE49E83A /* AMSlideMenuContentSegue.m in Sources */,
+				89DE82B867670F0B5EE2204E /* AMSlideMenuLeftMenuSegue.m in Sources */,
+				845E91585E26ED82F786E45B /* AMSlideMenuLeftTableViewController.m in Sources */,
+				DB480026628461E3C592A2E0 /* AMSlideMenuMainViewController.m in Sources */,
+				F9A9B72C29930913F0644994 /* AMSlideMenuRightMenuSegue.m in Sources */,
+				7C0F11A74FBA16520D3B767D /* AMSlideMenuRightTableViewController.m in Sources */,
+				60CE1772F7CD3A0DA7C3D26B /* Pods-AMSlideMenu-dummy.m in Sources */,
+				B620A28DD6D07C686D515EEA /* UIViewController+AMSlideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A72ADFE47001FDDE8EE33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC83BDA593C93EFA9FF68AE /* ASCScreenBrightnessDetector.m in Sources */,
+				328A12D41BAEC9128E4EED81 /* Pods-ASCScreenBrightnessDetector-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A55CDECB335B2BF92FF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72398DC18A6FAAFDD29D7976 /* IonIcons.m in Sources */,
+				973ABC61F0160F6BFFFE1008 /* Pods-ionicons-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B240C01D311A7C7C2CD30D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73002070840D1E4705633133 /* CRToast.m in Sources */,
+				10EF5E594CDB1DBE24F6B9B7 /* Pods-CRToast-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD762482511372F586A7F9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23794F5128C05874A25B0381 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5463ED4F9740D8B9F333E73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AMSlideMenu";
+			target = 133E367CCF174CD55E7B1DCE /* Pods-AMSlideMenu */;
+			targetProxy = 41A4E590B2E3D95470420280 /* PBXContainerItemProxy */;
+		};
+		78CE99E665C7C1220CC56C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASCScreenBrightnessDetector";
+			target = 4C4A406ED8F938D385DF395B /* Pods-ASCScreenBrightnessDetector */;
+			targetProxy = 0467B9655ACA0CEEC1E52164 /* PBXContainerItemProxy */;
+		};
+		8C3A640159F2D04547D59448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ionicons";
+			target = 1392B4D9532A913802DE099C /* Pods-ionicons */;
+			targetProxy = FE1AD1081B6B3346B0773E4A /* PBXContainerItemProxy */;
+		};
+		CE0FAA3FC65C2E4CAFA348DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CRToast";
+			target = E1E47D141A07E61BC602748C /* Pods-CRToast */;
+			targetProxy = 7A92C1F4F0A9F24A79BFA288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		004AD885298629A99A34800D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FFF2935B08875DB7B14CA9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		01464808D600428647E3323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53901D3FD5AF9ED082BAE5BC /* Pods-ionicons-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ionicons/Pods-ionicons-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		01ADBFC68A5AEB85781C7794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A5068F758EC11B8A728FC7 /* Pods-AMSlideMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AMSlideMenu/Pods-AMSlideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		073E092D54AC104F35DBF7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BFCD01C6F64C6C1F70E782 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0BF65987E216E82C76098297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD0155106CB91CEC64A6A71 /* Pods-CRToast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CRToast/Pods-CRToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		280A77C272875F155D34EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53901D3FD5AF9ED082BAE5BC /* Pods-ionicons-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ionicons/Pods-ionicons-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5ACEA8BB2A4CA528016BF4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB5FC47BBE77785462E7C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		925DD17E8CED4A8DC3EE0044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B042DA50B9EC070D2395EE91 /* Pods-ASCScreenBrightnessDetector-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ASCScreenBrightnessDetector/Pods-ASCScreenBrightnessDetector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		92CD19D8455D60AAF30B5621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A5068F758EC11B8A728FC7 /* Pods-AMSlideMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AMSlideMenu/Pods-AMSlideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F06D1BEBE6FA958598E56D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B042DA50B9EC070D2395EE91 /* Pods-ASCScreenBrightnessDetector-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ASCScreenBrightnessDetector/Pods-ASCScreenBrightnessDetector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8D287839F3CF76E55AC5FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD0155106CB91CEC64A6A71 /* Pods-CRToast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CRToast/Pods-CRToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D77351EEAC1EC2E2B26F76B /* Build configuration list for PBXNativeTarget "Pods-ASCScreenBrightnessDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06D1BEBE6FA958598E56D5F /* Debug */,
+				925DD17E8CED4A8DC3EE0044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D6257D88A186CA0BAACBB2 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004AD885298629A99A34800D /* Debug */,
+				073E092D54AC104F35DBF7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5392905EA690328D4B3B9D40 /* Build configuration list for PBXNativeTarget "Pods-ionicons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280A77C272875F155D34EFA5 /* Debug */,
+				01464808D600428647E3323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561293520E52829623A03B1F /* Build configuration list for PBXNativeTarget "Pods-CRToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D287839F3CF76E55AC5FC5 /* Debug */,
+				0BF65987E216E82C76098297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5660AB8C2A518EF6C4863A97 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB5FC47BBE77785462E7C30 /* Debug */,
+				5ACEA8BB2A4CA528016BF4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9086C51FD6ED84D56AE832B4 /* Build configuration list for PBXNativeTarget "Pods-AMSlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CD19D8455D60AAF30B5621 /* Debug */,
+				01ADBFC68A5AEB85781C7794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90226416999F895458D00D46 /* Project object */;
+}

@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-AMSlideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ASCScreenBrightnessDetector.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CRToast.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0FBA3BBD271EE82264FB5BDC</key>
+		<key>133E367CCF174CD55E7B1DCE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5255A15C146E9F2ECA06A09C</key>
+		<key>1392B4D9532A913802DE099C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF492F3983828A35E0831431</key>
+		<key>2047113CB2A6E14FAC35CAB0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C4A406ED8F938D385DF395B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1E47D141A07E61BC602748C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

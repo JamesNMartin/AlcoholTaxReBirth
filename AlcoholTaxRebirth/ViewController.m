@@ -20,6 +20,7 @@ double stateTax;
 - (IBAction)taxToggle:(id)sender
 {
     if (_taxToggle.isOn) {
+        _showTaxesAddedLabel.text = @"Hide Taxes Added";
         _stateTaxLabel.hidden      = NO;
         _stateTaxLabelPrice.hidden = NO;
         _literTaxLabel.hidden      = NO;
@@ -27,6 +28,7 @@ double stateTax;
         _totalTaxLabel.hidden      = NO;
         _totalTaxLabelPrice.hidden = NO;
     } else {
+        _showTaxesAddedLabel.text = @"Show Taxes Added";
         _stateTaxLabel.hidden      = YES;
         _stateTaxLabelPrice.hidden = YES;
         _literTaxLabel.hidden      = YES;
@@ -116,7 +118,7 @@ double stateTax;
         NSDictionary *options = @{
                                   kCRToastTextKey : @"Cleared!",
                                   kCRToastFontKey :[UIFont fontWithName:@"HelveticaNeue-LightItalic" size:20],
-                                  kCRToastImageKey : [IonIcons imageWithIcon:ion_ios_checkmark_outline size:36.0 color:[UIColor whiteColor]],
+                                  kCRToastImageKey:[IonIcons imageWithIcon:ion_ios_checkmark_outline size:36.0 color:[UIColor whiteColor]],
                                   kCRToastTextAlignmentKey : @(NSTextAlignmentLeft),
                                   kCRToastBackgroundColorKey : [UIColor colorWithRed:0.15 green:0.41 blue:0.69 alpha:1.00],
                                   kCRToastNotificationTypeKey : @(CRToastTypeNavigationBar),
@@ -274,22 +276,30 @@ double stateTax;
         }
     }
 }
-
 - (IBAction)heartButton:(id)sender
 {
     printf("YAY!\n");
 }
+-(void)brightnessChanged
+{
+    
+}
 -(void)viewWillAppear:(BOOL)animated
+{
+
+}
+-(void)viewWillDisappear:(BOOL)animated
 {
     
 }
 - (void)viewDidLoad {
-    //[_salePrice becomeFirstResponder];
+    
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.15 green:0.41 blue:0.69 alpha:1.00];
+    //self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+
+    
     [self.heartButton setTitle:nil forState:UIControlStateNormal];
     [self.heartButton setImage:[IonIcons imageWithIcon:ion_ios_heart size:20.0f color:[UIColor lightGrayColor]] forState:UIControlStateNormal];
-    [self.experimentButton setTitle:nil];
-    [self.experimentButton setImage:[IonIcons imageWithIcon:ion_ios_help_outline size:30.0 color:[UIColor colorWithRed:0.15 green:0.41 blue:0.69 alpha:1.00]]];
-    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -298,5 +308,4 @@ double stateTax;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 @end
