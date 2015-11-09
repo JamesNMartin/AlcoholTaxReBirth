@@ -24,6 +24,40 @@ double perPersonPrice;
     // Do any additional setup after loading the view.
 }
 
+-(void) motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+    if (![_salePrice.text isEqual: @""])
+    {
+        NSDictionary *options = @{
+                                  kCRToastTextKey : @"Cleared!",
+                                  kCRToastFontKey :[UIFont fontWithName:@"HelveticaNeue-LightItalic" size:20],
+                                  kCRToastImageKey : [IonIcons imageWithIcon:ion_ios_checkmark_outline size:36.0 color:[UIColor whiteColor]],
+                                  kCRToastTextAlignmentKey : @(NSTextAlignmentLeft),
+                                  kCRToastBackgroundColorKey : [UIColor colorWithRed:0.79 green:0.25 blue:0.27 alpha:1.00],
+                                  kCRToastNotificationTypeKey : @(CRToastTypeNavigationBar),
+                                  kCRToastSubtitleTextAlignmentKey: @(NSTextAlignmentCenter),
+                                  kCRToastAnimationInTypeKey : @(CRToastAnimationTypeGravity),
+                                  kCRToastAnimationOutTypeKey : @(CRToastAnimationTypeLinear),
+                                  kCRToastAnimationInDirectionKey : @(CRToastAnimationDirectionTop),
+                                  kCRToastAnimationOutDirectionKey : @(CRToastAnimationDirectionTop)
+                                  };
+        [CRToastManager showNotificationWithOptions:options
+                                    completionBlock:^{
+                                        NSLog(@"Completed");
+                                    }];
+        _salePrice.placeholder = @"Enter Sale Price To Be Split";
+        _salePrice.text = @"";
+        _stepper.value = 2;
+        _stepperResult.text = @"2 Ways";
+        _pricePerPseron.text = @"$0.00";
+        _totalPrice.text = @"$0.00";
+    }
+    
+    if (![_salePrice.text isEqual:@"$0.00"])
+    {
+        
+    }
+    
+}
 - (IBAction)stepperValue:(id)sender
 {
     double salePrice = [_salePrice.text doubleValue];

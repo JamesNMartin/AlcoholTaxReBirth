@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "BottleTaxes.h"
+#import <CRToast.h>
+#import <IonIcons.h>
 
 @interface SplitBillViewController : UIViewController
 

@@ -4,22 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-AMSlideMenu.xcscheme</key>
+		<key>AMSlideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ASCScreenBrightnessDetector.xcscheme</key>
+		<key>ASCScreenBrightnessDetector.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-CRToast.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-ionicons.xcscheme</key>
+		<key>CRToast.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -29,30 +24,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ionicons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>133E367CCF174CD55E7B1DCE</key>
+		<key>0DBB3D30F280CEDFE03B7474B23873A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1392B4D9532A913802DE099C</key>
+		<key>648CB6012D2E77295DBA5CFD70910991</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2047113CB2A6E14FAC35CAB0</key>
+		<key>6DE1BA211E81B032A0527EACBBFBDF0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C4A406ED8F938D385DF395B</key>
+		<key>8A276839C0003B5F0F3ECD19F3C111CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E1E47D141A07E61BC602748C</key>
+		<key>BC8C8326DF0F07562604A915BAD9A75B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

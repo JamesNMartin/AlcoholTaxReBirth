@@ -76,15 +76,20 @@ double stateTax;
     // Pass the selected object to the new view controller.
 }
 */
-
+/*
 - (IBAction)closeButton:(id)sender
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+*/
+
 
 - (IBAction)helpButton:(id)sender
 {
+    NSString *string = @"Type the amount of money you have to spend on a bottle and the result will be the maximum tag price";
     
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"How to Use" message:string delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 -(IBAction)size:(id)sender

@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AC083C481A82E60A00959ADA /* BottleTaxes.m in Sources */ = {isa = PBXBuildFile; fileRef = AC083C471A82E60A00959ADA /* BottleTaxes.m */; };
+		AC2032261AE05EBA009E0BBF /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032211AE05EBA009E0BBF /* icon180.png */; };
+		AC2032271AE05EBA009E0BBF /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032221AE05EBA009E0BBF /* icon58.png */; };
+		AC2032281AE05EBA009E0BBF /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032231AE05EBA009E0BBF /* icon120.png */; };
+		AC2032291AE05EBA009E0BBF /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032241AE05EBA009E0BBF /* icon80.png */; };
+		AC20322A1AE05EBA009E0BBF /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032251AE05EBA009E0BBF /* icon87.png */; };
 		AC4F29AE1A8296290082EA50 /* AffordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4F29AD1A8296290082EA50 /* AffordViewController.m */; };
 		AC4F90AD1AD34BCD00C812B1 /* SplitBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4F90AC1AD34BCD00C812B1 /* SplitBillViewController.m */; };
 		AC4F90B01AD34C8600C812B1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4F90AF1AD34C8600C812B1 /* SettingsViewController.m */; };
+		AC6467C51BEFD433009F2ED2 /* SupportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6467C41BEFD433009F2ED2 /* SupportTableViewController.m */; };
 		ACBBF25B1A81711E00921A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF25A1A81711E00921A3B /* main.m */; };
 		ACBBF25E1A81711E00921A3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF25D1A81711E00921A3B /* AppDelegate.m */; };
 		ACBBF2611A81711E00921A3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF2601A81711E00921A3B /* ViewController.m */; };
@@ -19,11 +25,6 @@
 		ACCA29241ACCB6DD00E4804B /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCA29211ACCB6DD00E4804B /* MainVC.m */; };
 		ACCA29251ACCB6DD00E4804B /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCA29231ACCB6DD00E4804B /* LeftMenuVC.m */; };
 		ACCA292D1ACCDC1700E4804B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCA292C1ACCDC1700E4804B /* Images.xcassets */; };
-		ACCA293D1ACCE4B100E4804B /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCA29381ACCE4B100E4804B /* icon120.png */; };
-		ACCA293E1ACCE4B100E4804B /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCA29391ACCE4B100E4804B /* icon180.png */; };
-		ACCA293F1ACCE4B100E4804B /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCA293A1ACCE4B100E4804B /* icon80.png */; };
-		ACCA29401ACCE4B100E4804B /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCA293B1ACCE4B100E4804B /* icon58.png */; };
-		ACCA29411ACCE4B100E4804B /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCA293C1ACCE4B100E4804B /* icon87.png */; };
 		B4C62329FF9169A1C766CB44 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B7B870FCB4A4AEE55EA90D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,16 +38,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ACD76D601AEC111000A30C7F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		9C65BDF58A22503208DF9756 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AC083C461A82E57C00959ADA /* BottleTaxes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottleTaxes.h; sourceTree = "<group>"; };
 		AC083C471A82E60A00959ADA /* BottleTaxes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottleTaxes.m; sourceTree = "<group>"; };
+		AC2032211AE05EBA009E0BBF /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
+		AC2032221AE05EBA009E0BBF /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		AC2032231AE05EBA009E0BBF /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		AC2032241AE05EBA009E0BBF /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		AC2032251AE05EBA009E0BBF /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
 		AC4F29AC1A8296290082EA50 /* AffordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffordViewController.h; sourceTree = "<group>"; };
 		AC4F29AD1A8296290082EA50 /* AffordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffordViewController.m; sourceTree = "<group>"; };
 		AC4F90AB1AD34BCD00C812B1 /* SplitBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitBillViewController.h; sourceTree = "<group>"; };
 		AC4F90AC1AD34BCD00C812B1 /* SplitBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitBillViewController.m; sourceTree = "<group>"; };
 		AC4F90AE1AD34C8600C812B1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		AC4F90AF1AD34C8600C812B1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		AC6467C31BEFD433009F2ED2 /* SupportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportTableViewController.h; sourceTree = "<group>"; };
+		AC6467C41BEFD433009F2ED2 /* SupportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportTableViewController.m; sourceTree = "<group>"; };
 		ACBBF2551A81711E00921A3B /* AlcoholTaxRebirth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlcoholTaxRebirth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBBF2591A81711E00921A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACBBF25A1A81711E00921A3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,11 +84,13 @@
 		ACCA29221ACCB6DD00E4804B /* LeftMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuVC.h; sourceTree = "<group>"; };
 		ACCA29231ACCB6DD00E4804B /* LeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuVC.m; sourceTree = "<group>"; };
 		ACCA292C1ACCDC1700E4804B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ACCA29381ACCE4B100E4804B /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
-		ACCA29391ACCE4B100E4804B /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
-		ACCA293A1ACCE4B100E4804B /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
-		ACCA293B1ACCE4B100E4804B /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
-		ACCA293C1ACCE4B100E4804B /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
+		ACD76D3F1AEC111000A30C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD76D401AEC111000A30C7F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ACD76D411AEC111000A30C7F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		ACD76D421AEC111000A30C7F /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		ACD76D441AEC111000A30C7F /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		ACD76D451AEC111000A30C7F /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		ACD76D471AEC111000A30C7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EEBB64AFC327EEB81EE20172 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F8B7B870FCB4A4AEE55EA90D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +136,7 @@
 			children = (
 				ACBBF2571A81711E00921A3B /* AlcoholTaxRebirth */,
 				ACBBF2711A81711E00921A3B /* AlcoholTaxRebirthTests */,
+				ACD76D3D1AEC111000A30C7F /* Alcohol Tax WatchKit Extension */,
 				ACBBF2561A81711E00921A3B /* Products */,
 				05368BFF5BC894CBEB6009AE /* Pods */,
 				A2860EF4B8F116B07266968B /* Frameworks */,
@@ -143,6 +167,8 @@
 				AC4F90AC1AD34BCD00C812B1 /* SplitBillViewController.m */,
 				AC4F90AE1AD34C8600C812B1 /* SettingsViewController.h */,
 				AC4F90AF1AD34C8600C812B1 /* SettingsViewController.m */,
+				AC6467C31BEFD433009F2ED2 /* SupportTableViewController.h */,
+				AC6467C41BEFD433009F2ED2 /* SupportTableViewController.m */,
 				ACBBF2621A81711E00921A3B /* Main.storyboard */,
 				ACCA29201ACCB6DD00E4804B /* MainVC.h */,
 				ACCA29211ACCB6DD00E4804B /* MainVC.m */,
@@ -157,11 +183,11 @@
 		ACBBF2581A81711E00921A3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACCA29381ACCE4B100E4804B /* icon120.png */,
-				ACCA29391ACCE4B100E4804B /* icon180.png */,
-				ACCA293A1ACCE4B100E4804B /* icon80.png */,
-				ACCA293B1ACCE4B100E4804B /* icon58.png */,
-				ACCA293C1ACCE4B100E4804B /* icon87.png */,
+				AC2032211AE05EBA009E0BBF /* icon180.png */,
+				AC2032221AE05EBA009E0BBF /* icon58.png */,
+				AC2032231AE05EBA009E0BBF /* icon120.png */,
+				AC2032241AE05EBA009E0BBF /* icon80.png */,
+				AC2032251AE05EBA009E0BBF /* icon87.png */,
 				ACBBF2591A81711E00921A3B /* Info.plist */,
 				ACBBF25A1A81711E00921A3B /* main.m */,
 			);
@@ -185,6 +211,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ACD76D3D1AEC111000A30C7F /* Alcohol Tax WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ACD76D411AEC111000A30C7F /* InterfaceController.h */,
+				ACD76D421AEC111000A30C7F /* InterfaceController.m */,
+				ACD76D441AEC111000A30C7F /* NotificationController.h */,
+				ACD76D451AEC111000A30C7F /* NotificationController.m */,
+				ACD76D471AEC111000A30C7F /* Images.xcassets */,
+				ACD76D3E1AEC111000A30C7F /* Supporting Files */,
+			);
+			path = "Alcohol Tax WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ACD76D3E1AEC111000A30C7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACD76D3F1AEC111000A30C7F /* Info.plist */,
+				ACD76D401AEC111000A30C7F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +245,8 @@
 				ACBBF2521A81711E00921A3B /* Frameworks */,
 				ACBBF2531A81711E00921A3B /* Resources */,
 				C1707085F071135F37A8515E /* Copy Pods Resources */,
+				ACD76D601AEC111000A30C7F /* Embed App Extensions */,
+				C2FBA008D3C3E303EBF92BA7 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +281,7 @@
 		ACBBF24D1A81711D00921A3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "James Martin";
 				TargetAttributes = {
 					ACBBF2541A81711E00921A3B = {
@@ -268,13 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCA29411ACCE4B100E4804B /* icon87.png in Resources */,
-				ACCA293E1ACCE4B100E4804B /* icon180.png in Resources */,
+				AC20322A1AE05EBA009E0BBF /* icon87.png in Resources */,
 				ACCA292D1ACCDC1700E4804B /* Images.xcassets in Resources */,
+				AC2032281AE05EBA009E0BBF /* icon120.png in Resources */,
+				AC2032291AE05EBA009E0BBF /* icon80.png in Resources */,
 				ACBBF2641A81711E00921A3B /* Main.storyboard in Resources */,
-				ACCA29401ACCE4B100E4804B /* icon58.png in Resources */,
-				ACCA293D1ACCE4B100E4804B /* icon120.png in Resources */,
-				ACCA293F1ACCE4B100E4804B /* icon80.png in Resources */,
+				AC2032261AE05EBA009E0BBF /* icon180.png in Resources */,
+				AC2032271AE05EBA009E0BBF /* icon58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +368,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C2FBA008D3C3E303EBF92BA7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -330,6 +395,7 @@
 				AC4F90AD1AD34BCD00C812B1 /* SplitBillViewController.m in Sources */,
 				AC4F90B01AD34C8600C812B1 /* SettingsViewController.m in Sources */,
 				AC083C481A82E60A00959ADA /* BottleTaxes.m in Sources */,
+				AC6467C51BEFD433009F2ED2 /* SupportTableViewController.m in Sources */,
 				ACBBF25E1A81711E00921A3B /* AppDelegate.m in Sources */,
 				ACCA29241ACCB6DD00E4804B /* MainVC.m in Sources */,
 				AC4F29AE1A8296290082EA50 /* AffordViewController.m in Sources */,
@@ -387,6 +453,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -404,7 +471,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.1;
 			};
 			name = Debug;
 		};
@@ -439,7 +506,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -454,6 +521,7 @@
 				INFOPLIST_FILE = AlcoholTaxRebirth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesnmartin.alcoholtax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -464,11 +532,12 @@
 			baseConfigurationReference = 9C65BDF58A22503208DF9756 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: James Martin";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: James Martin";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AlcoholTaxRebirth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesnmartin.alcoholtax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -488,6 +557,7 @@
 				);
 				INFOPLIST_FILE = AlcoholTaxRebirthTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesnmartin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlcoholTaxRebirth.app/AlcoholTaxRebirth";
 			};
@@ -503,6 +573,7 @@
 				);
 				INFOPLIST_FILE = AlcoholTaxRebirthTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesnmartin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlcoholTaxRebirth.app/AlcoholTaxRebirth";
 			};

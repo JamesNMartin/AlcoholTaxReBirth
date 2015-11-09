@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alcohol Tax WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>AlcoholTaxRebirth.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Notification - Alcohol Tax WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>ACBBF26D1A81711E00921A3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ACD76D4A1AEC111000A30C7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -20,7 +20,7 @@
 @property (strong, nonatomic) IBOutlet UISegmentedControl *selectSize;
 @property (strong, nonatomic) IBOutlet UILabel *canAffordLabel;
 
-- (IBAction)closeButton:(id)sender;
+//- (IBAction)closeButton:(id)sender;
 - (IBAction)helpButton:(id)sender;
 - (IBAction)size:(id)sender;
 
