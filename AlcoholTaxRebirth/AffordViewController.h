@@ -11,8 +11,12 @@
 #import <ionicons-codes.h>
 #import "BottleTaxes.h"
 #import <CRToast.h>
+#import "BSKeyboardControls.h"
 
-@interface AffordViewController : UIViewController
+@interface AffordViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate,BSKeyboardControlsDelegate>
+
+//KEYBOARD CONTROLS NEEDS THIS ####################################
+@property (nonatomic, strong) BSKeyboardControls *keyboardControls;
 
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *closeButton;
 @property (strong, nonatomic) IBOutlet UITextField *amountOnHand;

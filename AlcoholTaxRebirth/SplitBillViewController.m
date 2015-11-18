@@ -19,11 +19,28 @@ double stateTax;
 double perPersonPrice;
 
 - (void)viewDidLoad {
+    
+    NSArray *fields = @[self.salePrice];
+    [self.keyboardControls setVisibleControls:BSKeyboardControlDone];
+    [self setKeyboardControls:[[BSKeyboardControls alloc] initWithFields:fields]];
+    [self.keyboardControls setDelegate:self];
+    self.keyboardControls.doneTintColor = [UIColor colorWithRed:0.79 green:0.25 blue:0.27 alpha:1.00];
+
+    [_salePrice becomeFirstResponder];
+    
+    
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.79 green:0.25 blue:0.27 alpha:1.00];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-
+- (void)textViewDidBeginEditing:(UITextView *)textView
+{
+    [self.keyboardControls setActiveField:textView];
+}
+- (void)keyboardControlsDonePressed:(BSKeyboardControls *)keyboardControls
+{
+    [self.view endEditing:YES];
+}
 -(void) motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
     if (![_salePrice.text isEqual: @""])
     {
@@ -47,7 +64,7 @@ double perPersonPrice;
         _salePrice.placeholder = @"Enter Sale Price To Be Split";
         _salePrice.text = @"";
         _stepper.value = 2;
-        _stepperResult.text = @"2 Ways";
+        _stepperResult.text = @"2 ways";
         _pricePerPseron.text = @"$0.00";
         _totalPrice.text = @"$0.00";
     }
@@ -65,10 +82,12 @@ double perPersonPrice;
     
     
     NSString *splitString = [[NSString alloc]
-                             initWithFormat:@"%.0f Ways",splitValue];
+                             initWithFormat:@"%.0f ways",splitValue];
     _stepperResult.text = splitString;
     
     
+#warning FIXING THE NO SALE VALUE AND NO UPDATE ON STEPPER
+
     while (salePrice >= 0 && _stepper.value >= 2 && _selectSize.selectedSegmentIndex == 0) {
         _salePrice.placeholder = @"Enter Sale Price To Be Split";
         totalCost = salePrice * salesTax + pintTax + salePrice;
@@ -99,7 +118,7 @@ double perPersonPrice;
             _totalPrice.text = @"$0.00";
             _pricePerPseron.text = @"$0.00";
             _stepper.value = 2;
-            _stepperResult.text = @"2 Ways";
+            _stepperResult.text = @"2 ways";
             break;
         }
         if (totalString > 0 ) {
@@ -136,7 +155,7 @@ double perPersonPrice;
             _totalPrice.text = @"$0.00";
             _pricePerPseron.text = @"$0.00";
             _stepper.value = 2;
-            _stepperResult.text = @"2 Ways";
+            _stepperResult.text = @"2 ways";
             break;
         }
         if (totalString > 0 ) {
@@ -173,7 +192,7 @@ double perPersonPrice;
             _totalPrice.text = @"$0.00";
             _pricePerPseron.text = @"$0.00";
             _stepper.value = 2;
-            _stepperResult.text = @"2 Ways";
+            _stepperResult.text = @"2 ways";
             break;
         }
         if (totalString > 0 ) {
@@ -210,7 +229,7 @@ double perPersonPrice;
             _totalPrice.text = @"$0.00";
             _pricePerPseron.text = @"$0.00";
             _stepper.value = 2;
-            _stepperResult.text = @"2 Ways";
+            _stepperResult.text = @"2 ways";
             break;
         }
         if (totalString > 0 ) {

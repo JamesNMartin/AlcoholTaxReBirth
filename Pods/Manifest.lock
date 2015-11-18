@@ -1,19 +1,22 @@
 PODS:
   - AMSlideMenu (1.5.4)
   - ASCScreenBrightnessDetector (1.0.0)
-  - CRToast (0.0.7)
-  - ionicons (2.0.1)
+  - BSKeyboardControls (2.2)
+  - CRToast (0.0.9)
+  - ionicons (2.0.3)
 
 DEPENDENCIES:
   - AMSlideMenu
   - ASCScreenBrightnessDetector
+  - BSKeyboardControls
   - CRToast
   - ionicons
 
 SPEC CHECKSUMS:
   AMSlideMenu: 8571937703d2b8e187b22c1416be4cafc3532a11
   ASCScreenBrightnessDetector: acfbc843356c5203e678b274db54bf2b4595df5a
-  CRToast: 99a28f4387def43b439ad88f957ce31357ff7373
-  ionicons: c7b0867373392e85c17f613d19ade04ccfbe5a7c
+  BSKeyboardControls: b701935e789961102e3f20063bba7185800a2d3f
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  ionicons: ec1e86e6c3316bd9942a7f024080dd75c70dd6a5
 
 COCOAPODS: 0.39.0

@@ -53,7 +53,17 @@ double stateTax;
     
 }
 - (void)viewDidLoad {
-    //[_amountOnHand becomeFirstResponder];
+    
+    NSArray *fields = @[self.amountOnHand];
+    [self.keyboardControls setVisibleControls:BSKeyboardControlDone];
+    [self setKeyboardControls:[[BSKeyboardControls alloc] initWithFields:fields]];
+    [self.keyboardControls setDelegate:self];
+    
+    self.keyboardControls.doneTintColor = [UIColor colorWithRed:0.28 green:0.19 blue:0.59 alpha:1.00];
+    
+    [_amountOnHand becomeFirstResponder];
+    
+    
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.28 green:0.19 blue:0.59 alpha:1.00];
     [self.closeButton setTitle:nil];
     [self.closeButton setImage:[IonIcons imageWithIcon:ion_ios_calculator_outline size:30.0 color:[UIColor colorWithRed:0.28 green:0.19 blue:0.59 alpha:1.00]]];
@@ -61,7 +71,14 @@ double stateTax;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-
+- (void)textViewDidBeginEditing:(UITextView *)textView
+{
+    [self.keyboardControls setActiveField:textView];
+}
+- (void)keyboardControlsDonePressed:(BSKeyboardControls *)keyboardControls
+{
+    [self.view endEditing:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

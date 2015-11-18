@@ -276,6 +276,14 @@ double stateTax;
         }
     }
 }
+- (void)textViewDidBeginEditing:(UITextView *)textView
+{
+    [self.keyboardControls setActiveField:textView];
+}
+- (void)keyboardControlsDonePressed:(BSKeyboardControls *)keyboardControls
+{
+    [self.view endEditing:YES];
+}
 - (IBAction)heartButton:(id)sender
 {
     printf("YAY!\n");
@@ -293,6 +301,15 @@ double stateTax;
     
 }
 - (void)viewDidLoad {
+    
+    NSArray *fields = @[self.salePrice];
+    [self.keyboardControls setVisibleControls:BSKeyboardControlDone];
+    [self setKeyboardControls:[[BSKeyboardControls alloc] initWithFields:fields]];
+    [self.keyboardControls setDelegate:self];
+    
+    self.keyboardControls.doneTintColor = [UIColor colorWithRed:0.15 green:0.41 blue:0.69 alpha:1.00];
+    
+    [_salePrice becomeFirstResponder];
     
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.15 green:0.41 blue:0.69 alpha:1.00];
     //self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};

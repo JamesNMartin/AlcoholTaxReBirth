@@ -13,9 +13,13 @@
 #import <CRToast.h>
 #import "BottleTaxes.h"
 #import <AMSlideMenuProtocols.h>
+#import "BSKeyboardControls.h"
 
-@interface ViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate, UITextFieldDelegate, UITextViewDelegate>
+@interface ViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate, UITextFieldDelegate, UITextViewDelegate,BSKeyboardControlsDelegate>
 
+
+//KEYBOARD CONTROLS NEEDS THIS ####################################
+@property (nonatomic, strong) BSKeyboardControls *keyboardControls;
 
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 @property (strong, nonatomic) IBOutlet UITextField *salePrice;

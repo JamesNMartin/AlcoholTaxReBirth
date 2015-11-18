@@ -3,5 +3,5 @@ pod 'CRToast'
 pod 'ASCScreenBrightnessDetector'
 pod 'AMSlideMenu'
 pod 'ionicons'
-
+pod 'BSKeyboardControls'
 

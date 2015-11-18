@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>BSKeyboardControls.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CRToast.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0DBB3D30F280CEDFE03B7474B23873A4</key>
+		<key>084B1FF8E099CDDF6B5FD3169504D512</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6DE1BA211E81B032A0527EACBBFBDF0D</key>
+		<key>7112751ACED56349A420B879DDAD76F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BC8C8326DF0F07562604A915BAD9A75B</key>
+		<key>D1F71BCF9A7C56AD0DD9E6A98EE119EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7571BCEC9BE2B766A5AEFB580A5784B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

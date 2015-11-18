@@ -84,8 +84,12 @@
         SFSafariViewController *safari = [[SFSafariViewController alloc] initWithURL:URL];
         [self presentViewController:safari animated:YES completion:nil];
     }
-    if (indexPath.row == 0 && indexPath.section == 1) {
-        NSLog(@"SUPPORT LINKS");
+    if (indexPath.row == 0 && indexPath.section == 1)
+    {
+        NSString *sURL = @"https://twitter.com/JamesNMartin";
+        NSURL *URL = [NSURL URLWithString:sURL];
+        SFSafariViewController *safari = [[SFSafariViewController alloc] initWithURL:URL];
+        [self presentViewController:safari animated:YES completion:nil];
     }
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

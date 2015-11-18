@@ -10,8 +10,12 @@
 #import "BottleTaxes.h"
 #import <CRToast.h>
 #import <IonIcons.h>
+#import "BSKeyboardControls.h"
 
-@interface SplitBillViewController : UIViewController
+@interface SplitBillViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate,BSKeyboardControlsDelegate>
+
+//KEYBOARD CONTROLS NEEDS THIS ####################################
+@property (nonatomic, strong) BSKeyboardControls *keyboardControls;
 
 @property (strong, nonatomic) IBOutlet UITextField *salePrice;
 @property (strong, nonatomic) IBOutlet UISegmentedControl *selectSize;
