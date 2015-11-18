@@ -42,13 +42,13 @@
 
     if (section == 0)
     {
-        return 3;
+        return 4;
     }
     if (section == 1)
     {
         return 1;
     }
-    return 3;
+    return 4;
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
@@ -80,6 +80,13 @@
     }
     if (indexPath.row == 2 && indexPath.section == 0) {
         NSString *sURL = @"https://github.com/sweetmandm/ionicons-iOS";
+        NSURL *URL = [NSURL URLWithString:sURL];
+        SFSafariViewController *safari = [[SFSafariViewController alloc] initWithURL:URL];
+        [self presentViewController:safari animated:YES completion:nil];
+    }
+    if (indexPath.row == 3 && indexPath.section == 0)
+    {
+        NSString *sURL = @"https://github.com/simonbs/BSKeyboardControls";
         NSURL *URL = [NSURL URLWithString:sURL];
         SFSafariViewController *safari = [[SFSafariViewController alloc] initWithURL:URL];
         [self presentViewController:safari animated:YES completion:nil];
