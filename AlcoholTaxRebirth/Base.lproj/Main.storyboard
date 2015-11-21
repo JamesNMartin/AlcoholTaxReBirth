@@ -662,6 +662,7 @@
                                 <animations/>
                                 <color key="tintColor" red="0.78738981485366821" green="0.24644413590431213" blue="0.27221894264221191" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
+                                    <action selector="emptySale:" destination="isz-Mw-ZWx" eventType="valueChanged" id="Lzb-GS-0dk"/>
                                     <action selector="stepperValue:" destination="isz-Mw-ZWx" eventType="valueChanged" id="gjg-5I-meP"/>
                                 </connections>
                             </stepper>

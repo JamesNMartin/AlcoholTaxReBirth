@@ -27,9 +27,10 @@ double stateTax;
                                   kCRToastTextAlignmentKey : @(NSTextAlignmentLeft),
                                   kCRToastBackgroundColorKey : [UIColor colorWithRed:0.28 green:0.19 blue:0.59 alpha:1.00],
                                   kCRToastNotificationTypeKey : @(CRToastTypeNavigationBar),
-                                  kCRToastSubtitleTextAlignmentKey: @(NSTextAlignmentCenter),
-                                  kCRToastAnimationInTypeKey : @(CRToastAnimationTypeGravity),
-                                  kCRToastAnimationOutTypeKey : @(CRToastAnimationTypeLinear),
+                                  kCRToastSubtitleTextAlignmentKey: @(NSTextAlignmentLeft),
+                                  kCRToastAnimationInTypeKey : @(CRToastAnimationTypeSpring),
+                                  kCRToastAnimationOutTypeKey : @(CRToastAnimationTypeSpring),
+                                  kCRToastAnimationSpringDampingKey : @(.6),
                                   kCRToastAnimationInDirectionKey : @(CRToastAnimationDirectionTop),
                                   kCRToastAnimationOutDirectionKey : @(CRToastAnimationDirectionTop)
                                   };

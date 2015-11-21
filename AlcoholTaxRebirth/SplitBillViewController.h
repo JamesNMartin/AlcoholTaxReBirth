@@ -25,5 +25,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *pricePerPseron;
 
 - (IBAction)stepperValue:(id)sender;
+- (IBAction)emptySale:(id)sender;
 
 @end

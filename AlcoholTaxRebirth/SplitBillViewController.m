@@ -51,9 +51,10 @@ double perPersonPrice;
                                   kCRToastTextAlignmentKey : @(NSTextAlignmentLeft),
                                   kCRToastBackgroundColorKey : [UIColor colorWithRed:0.79 green:0.25 blue:0.27 alpha:1.00],
                                   kCRToastNotificationTypeKey : @(CRToastTypeNavigationBar),
-                                  kCRToastSubtitleTextAlignmentKey: @(NSTextAlignmentCenter),
-                                  kCRToastAnimationInTypeKey : @(CRToastAnimationTypeGravity),
-                                  kCRToastAnimationOutTypeKey : @(CRToastAnimationTypeLinear),
+                                  kCRToastSubtitleTextAlignmentKey: @(NSTextAlignmentLeft),
+                                  kCRToastAnimationInTypeKey : @(CRToastAnimationTypeSpring),
+                                  kCRToastAnimationOutTypeKey : @(CRToastAnimationTypeSpring),
+                                  kCRToastAnimationSpringDampingKey : @(.6),
                                   kCRToastAnimationInDirectionKey : @(CRToastAnimationDirectionTop),
                                   kCRToastAnimationOutDirectionKey : @(CRToastAnimationDirectionTop)
                                   };
@@ -75,8 +76,40 @@ double perPersonPrice;
     }
     
 }
+-(IBAction)emptySale:(id)sender
+{
+    printf("Just showing error");
+    double salePrice = [_salePrice.text doubleValue];
+    
+    while (salePrice == 0)
+    {
+        _stepperResult.text = @"2 ways";
+        NSDictionary *options = @{
+                                  kCRToastTextKey : @"No sale price in entered.\nPlease enter a sale price and try again.",
+                                  kCRToastFontKey :[UIFont fontWithName:@"HelveticaNeue-LightItalic" size:17],
+                                  kCRToastImageKey:[IonIcons imageWithIcon:ion_sad_outline size:36.0 color:[UIColor whiteColor]],
+                                  kCRToastTextAlignmentKey : @(NSTextAlignmentLeft),
+                                  kCRToastBackgroundColorKey : [UIColor colorWithRed:0.79 green:0.25 blue:0.27 alpha:1.00],
+                                  kCRToastNotificationTypeKey : @(CRToastTypeNavigationBar),
+                                  kCRToastSubtitleTextAlignmentKey: @(NSTextAlignmentLeft),
+                                  kCRToastAnimationInTypeKey : @(CRToastAnimationTypeSpring),
+                                  kCRToastAnimationOutTypeKey : @(CRToastAnimationTypeSpring),
+                                  kCRToastTimeIntervalKey : @(4),
+                                  kCRToastAnimationSpringDampingKey : @(.6),
+                                  kCRToastAnimationInDirectionKey : @(CRToastAnimationDirectionTop),
+                                  kCRToastAnimationOutDirectionKey : @(CRToastAnimationDirectionTop)
+                                  };
+        [CRToastManager showNotificationWithOptions:options
+                                    completionBlock:^{
+                                        //NSLog(@"Completed");
+                                    }];
+        break;
+    }}
 - (IBAction)stepperValue:(id)sender
 {
+    NSLog(@"%.0f",[_stepper value]);
+    
+    
     double salePrice = [_salePrice.text doubleValue];
     double splitValue = [_stepper value];
     
@@ -85,8 +118,6 @@ double perPersonPrice;
                              initWithFormat:@"%.0f ways",splitValue];
     _stepperResult.text = splitString;
     
-    
-#warning FIXING THE NO SALE VALUE AND NO UPDATE ON STEPPER
 
     while (salePrice >= 0 && _stepper.value >= 2 && _selectSize.selectedSegmentIndex == 0) {
         _salePrice.placeholder = @"Enter Sale Price To Be Split";
