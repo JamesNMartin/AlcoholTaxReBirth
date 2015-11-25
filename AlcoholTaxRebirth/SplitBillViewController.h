@@ -23,8 +23,10 @@
 @property (strong, nonatomic) IBOutlet UILabel *stepperResult;
 @property (strong, nonatomic) IBOutlet UILabel *totalPrice;
 @property (strong, nonatomic) IBOutlet UILabel *pricePerPseron;
+@property (strong, nonatomic) IBOutlet UIButton *helpButton;
 
 - (IBAction)stepperValue:(id)sender;
 - (IBAction)emptySale:(id)sender;
+- (IBAction)helpButton:(id)sender;
 
 @end

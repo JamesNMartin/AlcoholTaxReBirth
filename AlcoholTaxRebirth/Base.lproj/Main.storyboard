@@ -608,6 +608,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="helpButton:" destination="isz-Mw-ZWx" eventType="touchUpInside" id="ZVs-Pq-agb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Price:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUL-lT-iWQ">
                                 <rect key="frame" x="11" y="141" width="85" height="21"/>
@@ -730,6 +733,7 @@
                     <navigationItem key="navigationItem" title="Split the Bill" id="ZCN-ys-e4q"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
+                        <outlet property="helpButton" destination="sjh-yU-abl" id="NvG-64-qxY"/>
                         <outlet property="pricePerPseron" destination="aih-kd-mM5" id="AdM-Wh-0dr"/>
                         <outlet property="salePrice" destination="GMI-4k-qFK" id="p3w-pZ-k4U"/>
                         <outlet property="selectSize" destination="qVq-lZ-95g" id="j5s-Pe-hKd"/>
