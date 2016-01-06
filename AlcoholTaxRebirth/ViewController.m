@@ -322,8 +322,14 @@ double stateTax;
 }
 -(void)viewWillAppear:(BOOL)animated
 {
-
+    //[self setNeedsStatusBarAppearanceUpdate];
 }
+/*
+- (UIStatusBarStyle) preferredStatusBarStyle
+{
+    return UIStatusBarStyleDefault;
+}
+ */
 -(void)viewWillDisappear:(BOOL)animated
 {
     
