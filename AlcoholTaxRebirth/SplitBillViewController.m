@@ -113,13 +113,6 @@ double perPersonPrice;
         break;
     }}
 
-- (IBAction)helpButton:(id)sender
-{
-    NSString *string = @"Enter the price on the tag for the product. The result will be the price with tax divided by the set number of people. The total price with tax is also shown below the price per person.";
-    
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"How to Use" message:string delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil, nil];
-    [alert show];
-}
 - (IBAction)stepperValue:(id)sender
 {
     NSLog(@"%.0f",[_stepper value]);
