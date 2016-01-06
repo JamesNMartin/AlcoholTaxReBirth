@@ -76,6 +76,13 @@ double perPersonPrice;
     }
     
 }
+- (IBAction)helpButton:(id)sender
+{
+    NSString *string = @"Type the tag price and the app will calculate the tax, then split it by the number of people you set. \n(Max. 100)";
+    
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"How to Use" message:string delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil, nil];
+    [alert show];
+}
 -(IBAction)emptySale:(id)sender
 {
     printf("Just showing error");
@@ -85,7 +92,7 @@ double perPersonPrice;
     {
         _stepperResult.text = @"2 ways";
         NSDictionary *options = @{
-                                  kCRToastTextKey : @"No sale price in entered.\nPlease enter a sale price and try again.",
+                                  kCRToastTextKey : @"No sale price is entered.\nPlease enter a sale price and try again.",
                                   kCRToastFontKey :[UIFont fontWithName:@"HelveticaNeue-LightItalic" size:17],
                                   kCRToastImageKey:[IonIcons imageWithIcon:ion_sad_outline size:36.0 color:[UIColor whiteColor]],
                                   kCRToastTextAlignmentKey : @(NSTextAlignmentLeft),

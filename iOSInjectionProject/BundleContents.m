@@ -3,10 +3,10 @@
 */
 
 #define INJECTION_NOIMPL
-#define INJECTION_BUNDLE InjectionBundle2
+#define INJECTION_BUNDLE InjectionBundle1
 
 #define INJECTION_ENABLED
-#import "/Users/jamesmartin/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin/Contents/Resources/BundleInjection.h"
+#import "/tmp/injectionforxcode/BundleInjection.h"
 
 #undef _instatic
 #define _instatic extern
@@ -28,20 +28,20 @@ extern
 };
 #endif
 
-@interface InjectionBundle2 : NSObject
+@interface InjectionBundle1 : NSObject
 @end
-@implementation InjectionBundle2
+@implementation InjectionBundle1
 
 + (void)load {
     Class bundleInjection = NSClassFromString(@"BundleInjection");
-    [bundleInjection autoLoadedNotify:4 hook:(void *)injectionHook];
+    [bundleInjection autoLoadedNotify:0 hook:(void *)injectionHook];
 }
 
 @end
 
 int injectionHook() {
     NSLog( @"injectionHook():" );
-    [InjectionBundle2 load];
+    [InjectionBundle1 load];
     return YES;
 }
 

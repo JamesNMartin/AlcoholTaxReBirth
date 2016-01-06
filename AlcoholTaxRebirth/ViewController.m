@@ -19,6 +19,22 @@ double stateTax;
 
 - (IBAction)taxToggle:(id)sender
 {
+    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
+    
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+        if (screenSize.height > 480.0f) {
+            printf("Dont need to move keyboard because we have enough space to see it\n");
+        } else {
+            printf("Moving keyboard to show more info\n");
+            if (_taxToggle.isOn) {
+                [_salePrice resignFirstResponder];
+            }
+            else
+            {
+                [_salePrice becomeFirstResponder];
+            }
+        }
+    }
     if (_taxToggle.isOn) {
         _showTaxesAddedLabel.text = @"Hide Taxes Added";
         _stateTaxLabel.hidden      = NO;
@@ -48,9 +64,19 @@ double stateTax;
 }
 -(void)helpButton:(id)sender
 {
+    NSString *string = @"Type the tag price and the total price including tax will be displayed";
+    
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"How to Use" message:string delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil, nil];
+    [alert show];
+    
+    
+    
+    /*
     UIActionSheet *actionsheet = [[UIActionSheet alloc]initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"E-Mail",@"How to Use",@"Rate Me", nil];
     [actionsheet showInView:self.view];
+  */
 }
+/*
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (buttonIndex == 0)
@@ -94,6 +120,7 @@ double stateTax;
         }
     }
 }
+ */
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
 {
     switch (result)
