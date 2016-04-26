@@ -24,7 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>MMNumberKeyboard.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AlcoholTaxRebirth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SFDraggableDialogView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,12 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>7EB7C2A8516B820DE3ADEC30115FA090</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84D260F81845A16EC9E9E0C8CD55DD63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8A276839C0003B5F0F3ECD19F3C111CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D1F71BCF9A7C56AD0DD9E6A98EE119EC</key>
+		<key>CBE193C3439B5EA5E94F697F72732A3D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

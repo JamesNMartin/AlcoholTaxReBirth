@@ -547,16 +547,12 @@ static NSMutableArray *allInstances;
 - (void)openLeftMenu
 {
     [self openLeftMenuAnimated:YES];
+#warning THIS IS WHERE THE KEYBOARD IS DISMISSED ON MENU PRESS
+    [[self view] endEditing:YES];
 }
 
 - (void)openLeftMenuAnimated:(BOOL)animated
 {
-    
-    
-/***************** [self.view endEditing:YES]; ********* DISMISSES KEYBOARD FOR ENTIRE APP WHEN METHOD CALLS ***************/
-    
-    
-    [self.view endEditing:YES];
     if (self.slideMenuDelegate && [self.slideMenuDelegate respondsToSelector:@selector(leftMenuWillOpen)])
         [self.slideMenuDelegate leftMenuWillOpen];
     

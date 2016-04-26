@@ -41,7 +41,7 @@
 
     if (section == 0)
     {
-        return 4;
+        return 5;
     }
     if (section == 1)
     {

@@ -7,178 +7,243 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F0FABDCB7803100C34B2324A51EB38E /* AMSlideMenuContentSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B704A7C4FC2D5A774AC16C57DE29971 /* AMSlideMenuContentSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10EA6BB10B19B8B24361A48C9C1589E2 /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E94492965251B77E5AD07A3E227B083F /* CRToastConfig.m */; };
-		18B88C117E8E882C41EFC51E1B56F34F /* AMSlideMenuMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F2EC67F6DC593BD8CE3FD221D586EFF9 /* AMSlideMenuMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		221231925D04EE9B92C015B8DA16ECCD /* ASCScreenBrightnessDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A258638B3798FDFBD888A56C2FD4036D /* ASCScreenBrightnessDetector-dummy.m */; };
-		22BDEDE32D1C3CD024A44ACC5E16017B /* BSKeyboardControls.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FC91226D4394C11C948ED66BE18642 /* BSKeyboardControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2622D0E3CAD98076B808BAF2C539638C /* CRToastLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = E5920BC2536749A2229F0BEFDF5A7ED5 /* CRToastLayoutHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		371C821508274EE8D09E273111370909 /* AMSlideMenuProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = C5921B7398569A69FC00C553591EFE8F /* AMSlideMenuProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40004E546CCF62DB361D3F2E6AE6EA1D /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 426D9FD463167FFB51B2669EBF5D8F2F /* UIViewController+AMSlideMenu.m */; };
-		48BC6206E830A4107465DF52C79CA2FF /* AMSlideMenuRightMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA6D759EA6C85023312853A87C3A241 /* AMSlideMenuRightMenuSegue.m */; };
-		4CFC89340B36C0D6BF4C2809FDF1AC85 /* AMSlideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 026ED2D672CAC1CB8DA20071ACF4323A /* AMSlideMenu-dummy.m */; };
-		4D6DB2F1C1580619A151B1F0AE36CCE1 /* ionicons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E700347BDB8AB4ABCFF22933526223E3 /* ionicons-dummy.m */; };
-		51542CE10980B255F91C15993B12D598 /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14398C392AA524033994D5FD38817038 /* AMSlideMenuRightTableViewController.m */; };
-		52375151976792732F293D3DB63803AF /* UIViewController+AMSlideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 553D7C3788BB656103B5D25DDCFE5D79 /* UIViewController+AMSlideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52FB0AE71AF4ED8BA17362BADB44E990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		535F255278D28927629E8264482A7CD3 /* AMSlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B85E56F1572430D4C98B35215BAD23D /* AMSlideMenuLeftTableViewController.m */; };
-		540394775468C88140E145D11D1A923C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		599EF8BDD9A21997197EF6DD9E4B677D /* AMSlideMenuRightMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398709CF9C1FE95384EF9DA4D0DDCD1 /* AMSlideMenuRightMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59D31AB9E0C1AC8FA5AFA79FC61D2619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		5B3BED169632ECA7EC06CFE401A45FE7 /* ionicons-codes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6092EEC573BC171654AEA5F5B6BEE3 /* ionicons-codes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F5B558532C683F858529B73DC185539 /* CRToastViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 284A7EB78FCF4C813B15A8FED39183F8 /* CRToastViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		68FF294BDD19243FF2548D381CEF4A89 /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1465A8BF14FDD105CD2C01D1631412 /* CRToastView.m */; };
-		6D4BD6A36D4FDE9E86A7D179D4C91801 /* AMSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BA33DDADF5A06232588077FAFBDD97 /* AMSlideMenuMainViewController.m */; };
-		6E4083EE85F90515D2A5F5D8F50C1A0A /* CRToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6284CC011714AA3A3DB6BEF8BD7712 /* CRToast-dummy.m */; };
-		83BF61940E23140875A96CF90EC58116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		841FB5CB939E2F326B211E01CD1B5E0A /* AMSlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A40193491F206C0E60C21E6BF692AEB9 /* AMSlideMenuLeftMenuSegue.m */; };
-		85F16DCC60950257226B83027D668836 /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B894C6A9C9394DDE7003F189508894 /* CRToastWindow.m */; };
-		8D888EBEA7565505813EF3A74E065813 /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FA99DD861F7FC7257CD363F41A18E8 /* BSKeyboardControls.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8DAC6EE0B1FE7389A924E1ECADCD0EA7 /* BSKeyboardControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D0049D767D96C7FACD2546600800C /* BSKeyboardControls-dummy.m */; };
-		8F4941F38DDEA72B6012F7F30AE43478 /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66B3CDCD13ED18C6273D095A14BA8BE /* CRToastViewController.m */; };
-		8FBC62786E6324DCDE620E1985C764E1 /* FontInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEA79CA4EE786A3C078B4F76F855E50 /* FontInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90CC0E009098E1D2EBB8BB02B07F4EDA /* AMSlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE206A839D26FB19082AF95FC1759C /* AMSlideMenuContentSegue.m */; };
-		9706F1CB9D01C2D7473C81573809F559 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		97D0EDFD608E20C3374F766F9142C6D6 /* ASCScreenBrightnessDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = E04B2132E4AB5F51F4F1DBFB4EED4119 /* ASCScreenBrightnessDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C08055EE332BC51D2BE6DCD08DA3084 /* AMSlideMenuLeftMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 660105929935BF676E5777C88E4D1E29 /* AMSlideMenuLeftMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A55FC369D4E062F96148FD19DFDB537F /* IonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BE1A4DED0FDD4A5423F844746B5D19 /* IonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA4F2EBB47342F73F09018CA4F756034 /* AMSlideMenuLeftTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4BF8DF496D8198436457E4F37312F7 /* AMSlideMenuLeftTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2EDFF9463F8458C1A09CBF7D739B519 /* ASCScreenBrightnessDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B339497B3D182EBF93087060219CFE /* ASCScreenBrightnessDetector.m */; };
-		B57B42090493D66BBD64613266840F8D /* CRToastWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBB89D90E27332FB3ABF3D3F0CF2CE0 /* CRToastWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B63D1A15B47D6952709EC075A77B5EA9 /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EED2B463ECE90B48E52E41B84A5F3A /* CRToastManager.m */; };
-		BFB7408A7D7EBF04448291470C197105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		C02E12577ECE14C0F87D9B3DDEEB471E /* CRToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 597DE741EA2315DE9B71DD463F82BD38 /* CRToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1007E25FDD5EE896494ADD3E88B6850 /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E9576F46086633EA631B7F0D837B0 /* FontInspector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C2E170E9FA4E54A80BCE013EA5D0AF6C /* CRToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 7656E1FE4B856DA1D3AE7F4C596D423B /* CRToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7BAC555A9461105A02FFCD0A92E85B2 /* CRToastManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B6E9679A0D1033BE66B4D2F034F3D9 /* CRToastManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8EA9051C0ABEE79D3C89A1DB5D67E07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		DDA3AE63791BFF9E31DC27E90E533600 /* CRToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F37BFC83B9EE5CDACC6641BD09D7FB5 /* CRToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE6F52C94EA479F5763682C519FACA6F /* AMSlideMenuRightTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93230ED1DF2E1D7379FE6C5F978D77E8 /* AMSlideMenuRightTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F50250E56C301387438BD172870D0C90 /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B97AE0EDC5341E2FD7E5E79500D0622 /* IonIcons.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F0FABDCB7803100C34B2324A51EB38E /* AMSlideMenuContentSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C20B7D80039A919D621CDD19EE843B /* AMSlideMenuContentSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EA6BB10B19B8B24361A48C9C1589E2 /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8DDE5DF5759416F059B94C943C51D /* CRToastConfig.m */; };
+		18B88C117E8E882C41EFC51E1B56F34F /* AMSlideMenuMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17064123EE134C09DBCE29492875C2D4 /* AMSlideMenuMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA04488FAC387C3B435C7A228A59163 /* SFDraggableDialogView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C35FC3E4CD52EA1047FE0A8887448499 /* SFDraggableDialogView-dummy.m */; };
+		221231925D04EE9B92C015B8DA16ECCD /* ASCScreenBrightnessDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B72838389ACF0B76949B8A30839B1B76 /* ASCScreenBrightnessDetector-dummy.m */; };
+		22BDEDE32D1C3CD024A44ACC5E16017B /* BSKeyboardControls.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4D65FF780DC80B67F1CFA3199F9C97 /* BSKeyboardControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242BE7D1B5BA6DD81E0D0D705387F537 /* SFDraggableDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 477479A52A9BF10F9C6E63E5B408670F /* SFDraggableDialogView.m */; };
+		2622D0E3CAD98076B808BAF2C539638C /* CRToastLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A71EF081F47A88DCD3303DF4D155F6 /* CRToastLayoutHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28CB3CD9A064D9C74997C8B20EB8903A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		3553BF164083B8D90442F6E12E4FE531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		371C821508274EE8D09E273111370909 /* AMSlideMenuProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE3A9C8D73AC58ECE8677CF1EEE6CD5 /* AMSlideMenuProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40004E546CCF62DB361D3F2E6AE6EA1D /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429393474DD5153C8B81A8F4072034D /* UIViewController+AMSlideMenu.m */; };
+		478734F2B669011BD82478DA7E0F0B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		48BC6206E830A4107465DF52C79CA2FF /* AMSlideMenuRightMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E5572002467E5B171C53784BFE907 /* AMSlideMenuRightMenuSegue.m */; };
+		4CFC89340B36C0D6BF4C2809FDF1AC85 /* AMSlideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBDFF0AD64ADFDBF0FA8E63577F2B1 /* AMSlideMenu-dummy.m */; };
+		4D6DB2F1C1580619A151B1F0AE36CCE1 /* ionicons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11C9208659EDD1A5B202FC84C09A8C /* ionicons-dummy.m */; };
+		51542CE10980B255F91C15993B12D598 /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D00C2EE7B15AAA96FC7E4B487B0FE59 /* AMSlideMenuRightTableViewController.m */; };
+		52375151976792732F293D3DB63803AF /* UIViewController+AMSlideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC8E746ED3C5ECAFB42DEBAEC336CCA /* UIViewController+AMSlideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		535F255278D28927629E8264482A7CD3 /* AMSlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E8D8DA3CA43FE075078078B9E450 /* AMSlideMenuLeftTableViewController.m */; };
+		599EF8BDD9A21997197EF6DD9E4B677D /* AMSlideMenuRightMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBD679B95E467C4CA75F57D8ADD7878 /* AMSlideMenuRightMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3BED169632ECA7EC06CFE401A45FE7 /* ionicons-codes.h in Headers */ = {isa = PBXBuildFile; fileRef = A13B51BA9F8F10DD8C19BC33EE320E35 /* ionicons-codes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C1997208569FA13CC1222A49A778893 /* SFDraggableDialogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EC80BF65C1C41F39570E51F77DC0AD /* SFDraggableDialogView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F59E9769CCA71457A64D519E3A56E8D /* Pods-AlcoholTaxRebirth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9512690D10052D60B7DE60113A817E /* Pods-AlcoholTaxRebirth-dummy.m */; };
+		5F5B558532C683F858529B73DC185539 /* CRToastViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D43B9C9105DB78E5465AF3EA5537F2E /* CRToastViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FE3682963382D8072A4B79051BB8612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		68FF294BDD19243FF2548D381CEF4A89 /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA3458B9AAA23EE27859A424E1C4FD /* CRToastView.m */; };
+		6D4BD6A36D4FDE9E86A7D179D4C91801 /* AMSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E7C3FA1B26A988B0B8E0C88D0DEC1 /* AMSlideMenuMainViewController.m */; };
+		6E4083EE85F90515D2A5F5D8F50C1A0A /* CRToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A470E86679754C392F4A2D5E7E539FE9 /* CRToast-dummy.m */; };
+		841FB5CB939E2F326B211E01CD1B5E0A /* AMSlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8029EB4CB5A8FA63D7E041E5BFF5D /* AMSlideMenuLeftMenuSegue.m */; };
+		85F16DCC60950257226B83027D668836 /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C16B459969B7EE92215F526E4704B5 /* CRToastWindow.m */; };
+		87D2009768EA8EDC529ECC5CB4453A05 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8F34F1BF96E9EC5CFB1EE78CB863B4 /* UIImage+ImageEffects.m */; };
+		8D888EBEA7565505813EF3A74E065813 /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAEE0884B4BCB9A4BDA3BAAC263B27C /* BSKeyboardControls.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8DAC6EE0B1FE7389A924E1ECADCD0EA7 /* BSKeyboardControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3FB1AC51612B9AA03078442688CF9C /* BSKeyboardControls-dummy.m */; };
+		8F4941F38DDEA72B6012F7F30AE43478 /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CDBDD4766530F9E8AC47AEC8401F9 /* CRToastViewController.m */; };
+		8FBC62786E6324DCDE620E1985C764E1 /* FontInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF9BBAB30AA63B56A02C73924745F95 /* FontInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90CC0E009098E1D2EBB8BB02B07F4EDA /* AMSlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FB575BBF4BAC503A976176C1F37FF0 /* AMSlideMenuContentSegue.m */; };
+		938A528DABF3DF0C079D5F1C5E7EDDE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		97D0EDFD608E20C3374F766F9142C6D6 /* ASCScreenBrightnessDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9068A492C13169C7A6D41582E3B52771 /* ASCScreenBrightnessDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C08055EE332BC51D2BE6DCD08DA3084 /* AMSlideMenuLeftMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2180C97FC934BBEA757E7EBFE4222CB8 /* AMSlideMenuLeftMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A374CDE7262E31BC33A73076B0EC04DB /* MMNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D4F296633C8FBDF1A1F8A1C5DD421 /* MMNumberKeyboard.m */; };
+		A55FC369D4E062F96148FD19DFDB537F /* IonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DEC18E12F79B1FD6960F1C625A453D /* IonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92A8FE4C4F4B6BC25904C07273EF598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		AA4F2EBB47342F73F09018CA4F756034 /* AMSlideMenuLeftTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7E8583B6B77438771AC9E1129C6D4B /* AMSlideMenuLeftTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1715CF4BE06757AD386925849E9D84B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7CC788C37999CEDD14708117BEC018 /* UIKit.framework */; };
+		B2EDFF9463F8458C1A09CBF7D739B519 /* ASCScreenBrightnessDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B93C43CE594DAFCE3875509A7B3E2C /* ASCScreenBrightnessDetector.m */; };
+		B57B42090493D66BBD64613266840F8D /* CRToastWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = D1542BFE69F94EE83219D78AC42DE17A /* CRToastWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B63D1A15B47D6952709EC075A77B5EA9 /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6564EDA0CC487F4DD7F0EFA28079C /* CRToastManager.m */; };
+		C02E12577ECE14C0F87D9B3DDEEB471E /* CRToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A512243E1B45BE3BBAA4C4DFC8BEEB2 /* CRToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1007E25FDD5EE896494ADD3E88B6850 /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2917EF07011B0997D5D54175D8DBA4 /* FontInspector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C11EA0C738AA6F8376FC652DF2ED9F6F /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 341948375814F461BA2A46AD391C10CA /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2E170E9FA4E54A80BCE013EA5D0AF6C /* CRToast.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3AE25791474B9DE8DD3BD3DFA3B001 /* CRToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C43D23017A8EDCB3C342D31DF4C1B8C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D535ADC5B614C5832BBC04C21A9411A0 /* QuartzCore.framework */; };
+		C7BAC555A9461105A02FFCD0A92E85B2 /* CRToastManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E8A4DBCD6E5EBE7E0414B56384DC20 /* CRToastManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96CB8FD14F3E19AEEC623353D6687F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		D4632F553A6D32A8B4EE37897CEFCF00 /* MMNumberKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A5518D33E53889A63546D9559E057D /* MMNumberKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1733E83DED924899ED5171A9742E10 /* MMNumberKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87603CEBB39160CF2DDBB60E81A5CB2 /* MMNumberKeyboard-dummy.m */; };
+		DDA3AE63791BFF9E31DC27E90E533600 /* CRToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3F879F6136EFF0F72F70282215AE22 /* CRToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6F52C94EA479F5763682C519FACA6F /* AMSlideMenuRightTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8395470DD35AC672A5F46833B21A8189 /* AMSlideMenuRightTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50250E56C301387438BD172870D0C90 /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 473F17A90A83EE93F4DE9E830F827151 /* IonIcons.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDC707224180F5AA03D6E9181F3268CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3341C07B1D9A06A35987C4A4919A3790 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7112751ACED56349A420B879DDAD76F8;
-			remoteInfo = CRToast;
-		};
-		64D3ED54C953D080684FB2B87B45EFB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 648CB6012D2E77295DBA5CFD70910991;
-			remoteInfo = ASCScreenBrightnessDetector;
-		};
-		7BF8DC569AA8DE9F4F4DCD2A5C63B893 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7571BCEC9BE2B766A5AEFB580A5784B;
-			remoteInfo = BSKeyboardControls;
-		};
-		C3F186824C7E5809E8E7E68496769E1F /* PBXContainerItemProxy */ = {
+		08AF04E2DC5BC66B969BAF4663CAF6B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A276839C0003B5F0F3ECD19F3C111CF;
 			remoteInfo = AMSlideMenu;
 		};
-		E38EC3FC4244D9BF88F1B57B8E40DD58 /* PBXContainerItemProxy */ = {
+		247DA174211CDEA47DF0A29387540B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE193C3439B5EA5E94F697F72732A3D;
+			remoteInfo = SFDraggableDialogView;
+		};
+		35B70E0CBEA1483AED188EAFB7870E4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 084B1FF8E099CDDF6B5FD3169504D512;
 			remoteInfo = ionicons;
 		};
+		4CF5090EBC0A1A39F6857CEF0E37C005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648CB6012D2E77295DBA5CFD70910991;
+			remoteInfo = ASCScreenBrightnessDetector;
+		};
+		619A183470A37CB29327D66610D9E36A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D260F81845A16EC9E9E0C8CD55DD63;
+			remoteInfo = MMNumberKeyboard;
+		};
+		BDC9867D6BEB2F2FEB7CBF7C5FE41A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7112751ACED56349A420B879DDAD76F8;
+			remoteInfo = CRToast;
+		};
+		F83891007BD6E0F019A5A090C1F69555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7571BCEC9BE2B766A5AEFB580A5784B;
+			remoteInfo = BSKeyboardControls;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B6E9679A0D1033BE66B4D2F034F3D9 /* CRToastManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastManager.h; path = CRToast/CRToastManager.h; sourceTree = "<group>"; };
-		026ED2D672CAC1CB8DA20071ACF4323A /* AMSlideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMSlideMenu-dummy.m"; sourceTree = "<group>"; };
-		02BE1A4DED0FDD4A5423F844746B5D19 /* IonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IonIcons.h; path = ionicons/IonIcons.h; sourceTree = "<group>"; };
-		04B339497B3D182EBF93087060219CFE /* ASCScreenBrightnessDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASCScreenBrightnessDetector.m; path = Classes/ASCScreenBrightnessDetector.m; sourceTree = "<group>"; };
-		0630FA1625F9F7144C96541B7E126DAC /* ionicons.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ionicons.bundle; path = ionicons/ionicons.bundle; sourceTree = "<group>"; };
-		07BF4147290638065D547A0E3596C3C5 /* libCRToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCRToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		08DB38006DC846E33430022353914C89 /* AMSlideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMSlideMenu.xcconfig; sourceTree = "<group>"; };
-		0F1465A8BF14FDD105CD2C01D1631412 /* CRToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastView.m; path = CRToast/CRToastView.m; sourceTree = "<group>"; };
-		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		1115283A4283BDF676984847C83C82F5 /* ASCScreenBrightnessDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASCScreenBrightnessDetector.xcconfig; sourceTree = "<group>"; };
-		14398C392AA524033994D5FD38817038 /* AMSlideMenuRightTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightTableViewController.m; path = AMSlideMenu/AMSlideMenuRightTableViewController.m; sourceTree = "<group>"; };
-		1CEA79CA4EE786A3C078B4F76F855E50 /* FontInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontInspector.h; path = ionicons/FontInspector.h; sourceTree = "<group>"; };
-		26FA99DD861F7FC7257CD363F41A18E8 /* BSKeyboardControls.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSKeyboardControls.m; path = BSKeyboardControls/BSKeyboardControls.m; sourceTree = "<group>"; };
-		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		284A7EB78FCF4C813B15A8FED39183F8 /* CRToastViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastViewController.h; path = CRToast/CRToastViewController.h; sourceTree = "<group>"; };
-		2C0A55215778141BA79FCBD800793B31 /* BSKeyboardControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSKeyboardControls-prefix.pch"; sourceTree = "<group>"; };
-		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B85E56F1572430D4C98B35215BAD23D /* AMSlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftTableViewController.m; path = AMSlideMenu/AMSlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
-		3BEA9EBD2099ECB5FC3F690246A853B3 /* ionicons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ionicons-prefix.pch"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		426D9FD463167FFB51B2669EBF5D8F2F /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AMSlideMenu.m"; path = "AMSlideMenu/UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
-		49814F5F7A4C14846DE865536B101CC4 /* AMSlideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSlideMenu-prefix.pch"; sourceTree = "<group>"; };
-		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		553D7C3788BB656103B5D25DDCFE5D79 /* UIViewController+AMSlideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AMSlideMenu.h"; path = "AMSlideMenu/UIViewController+AMSlideMenu.h"; sourceTree = "<group>"; };
-		597DE741EA2315DE9B71DD463F82BD38 /* CRToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastView.h; path = CRToast/CRToastView.h; sourceTree = "<group>"; };
-		5B97AE0EDC5341E2FD7E5E79500D0622 /* IonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IonIcons.m; path = ionicons/IonIcons.m; sourceTree = "<group>"; };
-		5F37BFC83B9EE5CDACC6641BD09D7FB5 /* CRToastConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastConfig.h; path = CRToast/CRToastConfig.h; sourceTree = "<group>"; };
-		5F37FE3B468E24FE91B95441AB097C7B /* libionicons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libionicons.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		660105929935BF676E5777C88E4D1E29 /* AMSlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftMenuSegue.h; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
-		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6B6284CC011714AA3A3DB6BEF8BD7712 /* CRToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRToast-dummy.m"; sourceTree = "<group>"; };
-		6E3E9576F46086633EA631B7F0D837B0 /* FontInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FontInspector.m; path = ionicons/FontInspector.m; sourceTree = "<group>"; };
-		6F7D0049D767D96C7FACD2546600800C /* BSKeyboardControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSKeyboardControls-dummy.m"; sourceTree = "<group>"; };
-		6FBB89D90E27332FB3ABF3D3F0CF2CE0 /* CRToastWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastWindow.h; path = CRToast/CRToastWindow.h; sourceTree = "<group>"; };
-		7656E1FE4B856DA1D3AE7F4C596D423B /* CRToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToast.h; path = CRToast/CRToast.h; sourceTree = "<group>"; };
-		7B704A7C4FC2D5A774AC16C57DE29971 /* AMSlideMenuContentSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuContentSegue.h; path = AMSlideMenu/AMSlideMenuContentSegue.h; sourceTree = "<group>"; };
-		890D90E4DD44CAEEA0B48DC077B01017 /* BSKeyboardControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSKeyboardControls.xcconfig; sourceTree = "<group>"; };
-		8A7E8C6C6C98FD62FB7CA8D13E78F07D /* libAMSlideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMSlideMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EA6D759EA6C85023312853A87C3A241 /* AMSlideMenuRightMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightMenuSegue.m; path = AMSlideMenu/AMSlideMenuRightMenuSegue.m; sourceTree = "<group>"; };
-		93230ED1DF2E1D7379FE6C5F978D77E8 /* AMSlideMenuRightTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightTableViewController.h; path = AMSlideMenu/AMSlideMenuRightTableViewController.h; sourceTree = "<group>"; };
-		9398709CF9C1FE95384EF9DA4D0DDCD1 /* AMSlideMenuRightMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightMenuSegue.h; path = AMSlideMenu/AMSlideMenuRightMenuSegue.h; sourceTree = "<group>"; };
-		96BA33DDADF5A06232588077FAFBDD97 /* AMSlideMenuMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuMainViewController.m; path = AMSlideMenu/AMSlideMenuMainViewController.m; sourceTree = "<group>"; };
-		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9D6092EEC573BC171654AEA5F5B6BEE3 /* ionicons-codes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ionicons-codes.h"; path = "ionicons/ionicons-codes.h"; sourceTree = "<group>"; };
-		9E56DCB35C139A8F90577B1D7812E7E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A1B894C6A9C9394DDE7003F189508894 /* CRToastWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastWindow.m; path = CRToast/CRToastWindow.m; sourceTree = "<group>"; };
-		A258638B3798FDFBD888A56C2FD4036D /* ASCScreenBrightnessDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASCScreenBrightnessDetector-dummy.m"; sourceTree = "<group>"; };
-		A40193491F206C0E60C21E6BF692AEB9 /* AMSlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftMenuSegue.m; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
-		B1F9C92DF878326AEB26C78176483B8D /* libBSKeyboardControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBSKeyboardControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B668291AC2E97CE0FC36F001573474CD /* libASCScreenBrightnessDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libASCScreenBrightnessDetector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		060DF14CCB9ED70F0444A68E30407BD0 /* icCross@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icCross@2x.png"; path = "SFDraggableDialogView/Resources/icCross@2x.png"; sourceTree = "<group>"; };
+		0E46312CB2729DCF3BC96DF39CBB1FF0 /* MMNumberKeyboardDismissKey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MMNumberKeyboardDismissKey@2x.png"; path = "Images/MMNumberKeyboardDismissKey@2x.png"; sourceTree = "<group>"; };
+		1590EEE282393D7216A2D128CE7205ED /* AMSlideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMSlideMenu.xcconfig; sourceTree = "<group>"; };
+		17064123EE134C09DBCE29492875C2D4 /* AMSlideMenuMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuMainViewController.h; path = AMSlideMenu/AMSlideMenuMainViewController.h; sourceTree = "<group>"; };
+		1931EB2288EA5766E537BDEECD69C7BF /* icArrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icArrow@2x.png"; path = "SFDraggableDialogView/Resources/icArrow@2x.png"; sourceTree = "<group>"; };
+		1D00C2EE7B15AAA96FC7E4B487B0FE59 /* AMSlideMenuRightTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightTableViewController.m; path = AMSlideMenu/AMSlideMenuRightTableViewController.m; sourceTree = "<group>"; };
+		1D04E82FBDD335DAA584C86AE40216C7 /* Pods-AlcoholTaxRebirth-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlcoholTaxRebirth-resources.sh"; sourceTree = "<group>"; };
+		20D62F7DD0386777B29FF9ACA25E3027 /* SFDraggableDialogView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFDraggableDialogView.xcconfig; sourceTree = "<group>"; };
+		2180C97FC934BBEA757E7EBFE4222CB8 /* AMSlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftMenuSegue.h; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
+		22C367A0A3ED7D889B8609BD676DE47C /* MMNumberKeyboardDismissKey@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MMNumberKeyboardDismissKey@3x.png"; path = "Images/MMNumberKeyboardDismissKey@3x.png"; sourceTree = "<group>"; };
+		23121AF39298924D875B90F20D796AC0 /* libPods-AlcoholTaxRebirth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlcoholTaxRebirth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B14FF53123449F7284DBE8C08557ED /* libAMSlideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMSlideMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		341948375814F461BA2A46AD391C10CA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SFDraggableDialogView/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		3595A6C477272494D562A034FD5D6041 /* libCRToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCRToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		36819C12DC893A3ECBD3D4CAAFB3EEF0 /* ASCScreenBrightnessDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASCScreenBrightnessDetector.xcconfig; sourceTree = "<group>"; };
+		37E8A4DBCD6E5EBE7E0414B56384DC20 /* CRToastManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastManager.h; path = CRToast/CRToastManager.h; sourceTree = "<group>"; };
+		3FBD679B95E467C4CA75F57D8ADD7878 /* AMSlideMenuRightMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightMenuSegue.h; path = AMSlideMenu/AMSlideMenuRightMenuSegue.h; sourceTree = "<group>"; };
+		45DEC18E12F79B1FD6960F1C625A453D /* IonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IonIcons.h; path = ionicons/IonIcons.h; sourceTree = "<group>"; };
+		46B93C43CE594DAFCE3875509A7B3E2C /* ASCScreenBrightnessDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASCScreenBrightnessDetector.m; path = Classes/ASCScreenBrightnessDetector.m; sourceTree = "<group>"; };
+		473F17A90A83EE93F4DE9E830F827151 /* IonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IonIcons.m; path = ionicons/IonIcons.m; sourceTree = "<group>"; };
+		477479A52A9BF10F9C6E63E5B408670F /* SFDraggableDialogView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFDraggableDialogView.m; path = SFDraggableDialogView/SFDraggableDialogView.m; sourceTree = "<group>"; };
+		4A9AA7A9AE61EEEFBE2EE077F16A487D /* icArrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icArrow@3x.png"; path = "SFDraggableDialogView/Resources/icArrow@3x.png"; sourceTree = "<group>"; };
+		4CB2903E58F9CE870403EDF3C267A478 /* libMMNumberKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMNumberKeyboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8F34F1BF96E9EC5CFB1EE78CB863B4 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SFDraggableDialogView/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		4F7CC788C37999CEDD14708117BEC018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		58CA568F7C88FF50E15B65A142672D28 /* icArrowTop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icArrowTop@2x.png"; path = "SFDraggableDialogView/Resources/icArrowTop@2x.png"; sourceTree = "<group>"; };
+		5DF9BBAB30AA63B56A02C73924745F95 /* FontInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontInspector.h; path = ionicons/FontInspector.h; sourceTree = "<group>"; };
+		5EF8E8D8DA3CA43FE075078078B9E450 /* AMSlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftTableViewController.m; path = AMSlideMenu/AMSlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
+		5F9512690D10052D60B7DE60113A817E /* Pods-AlcoholTaxRebirth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlcoholTaxRebirth-dummy.m"; sourceTree = "<group>"; };
+		61A5518D33E53889A63546D9559E057D /* MMNumberKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMNumberKeyboard.h; path = Classes/MMNumberKeyboard.h; sourceTree = "<group>"; };
+		66B8029EB4CB5A8FA63D7E041E5BFF5D /* AMSlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftMenuSegue.m; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
+		6A0CDBDD4766530F9E8AC47AEC8401F9 /* CRToastViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastViewController.m; path = CRToast/CRToastViewController.m; sourceTree = "<group>"; };
+		6F8FD0437CCF689288567D08CF1F30D0 /* ionicons.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ionicons.bundle; path = ionicons/ionicons.bundle; sourceTree = "<group>"; };
+		723F90A4DDDE0C504D87B4FAC7709186 /* libionicons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libionicons.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7429393474DD5153C8B81A8F4072034D /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AMSlideMenu.m"; path = "AMSlideMenu/UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
+		76DA3458B9AAA23EE27859A424E1C4FD /* CRToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastView.m; path = CRToast/CRToastView.m; sourceTree = "<group>"; };
+		78A00CD024E3340712F221A7561B759A /* CRToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRToast-prefix.pch"; sourceTree = "<group>"; };
+		7A512243E1B45BE3BBAA4C4DFC8BEEB2 /* CRToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastView.h; path = CRToast/CRToastView.h; sourceTree = "<group>"; };
+		7BD8DDE5DF5759416F059B94C943C51D /* CRToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastConfig.m; path = CRToast/CRToastConfig.m; sourceTree = "<group>"; };
+		7C2917EF07011B0997D5D54175D8DBA4 /* FontInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FontInspector.m; path = ionicons/FontInspector.m; sourceTree = "<group>"; };
+		7D43B9C9105DB78E5465AF3EA5537F2E /* CRToastViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastViewController.h; path = CRToast/CRToastViewController.h; sourceTree = "<group>"; };
+		7E3F879F6136EFF0F72F70282215AE22 /* CRToastConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastConfig.h; path = CRToast/CRToastConfig.h; sourceTree = "<group>"; };
+		8245B4399B406069357DF115FA3A7EAD /* MMNumberKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMNumberKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		834FD9E9668322888A7F136A1260F224 /* Pods-AlcoholTaxRebirth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlcoholTaxRebirth-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8395470DD35AC672A5F46833B21A8189 /* AMSlideMenuRightTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightTableViewController.h; path = AMSlideMenu/AMSlideMenuRightTableViewController.h; sourceTree = "<group>"; };
+		851D08C21D4F61A21394D0F929CBAF49 /* MMNumberKeyboardDismissKey.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MMNumberKeyboardDismissKey.png; path = Images/MMNumberKeyboardDismissKey.png; sourceTree = "<group>"; };
+		854D9A313A323131B3315EC8B8167464 /* AMSlideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSlideMenu-prefix.pch"; sourceTree = "<group>"; };
+		8ADB86EA6CE33F50397ED8C720FF3BD2 /* Pods-AlcoholTaxRebirth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlcoholTaxRebirth-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CEBDFF0AD64ADFDBF0FA8E63577F2B1 /* AMSlideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMSlideMenu-dummy.m"; sourceTree = "<group>"; };
+		8D7E8583B6B77438771AC9E1129C6D4B /* AMSlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftTableViewController.h; path = AMSlideMenu/AMSlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
+		8E81B8D862F69AB703BDAC8AAAEC1AEB /* Pods-AlcoholTaxRebirth-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlcoholTaxRebirth-frameworks.sh"; sourceTree = "<group>"; };
+		8F62FC406C9D1161EA2C8B61BDE01062 /* MMNumberKeyboardDeleteKey.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MMNumberKeyboardDeleteKey.png; path = Images/MMNumberKeyboardDeleteKey.png; sourceTree = "<group>"; };
+		8F7D4F296633C8FBDF1A1F8A1C5DD421 /* MMNumberKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMNumberKeyboard.m; path = Classes/MMNumberKeyboard.m; sourceTree = "<group>"; };
+		9068A492C13169C7A6D41582E3B52771 /* ASCScreenBrightnessDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCScreenBrightnessDetector.h; path = Classes/ASCScreenBrightnessDetector.h; sourceTree = "<group>"; };
+		94E4559BC2957F07D34E4B48F5BFB3DD /* libSFDraggableDialogView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSFDraggableDialogView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EC80BF65C1C41F39570E51F77DC0AD /* SFDraggableDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFDraggableDialogView.h; path = SFDraggableDialogView/SFDraggableDialogView.h; sourceTree = "<group>"; };
+		953EBC6C172FEFE33A4E0CD9CAC8D008 /* libBSKeyboardControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBSKeyboardControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95660D506A372B78BE5E22B2B4D0C78A /* libASCScreenBrightnessDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libASCScreenBrightnessDetector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC8E746ED3C5ECAFB42DEBAEC336CCA /* UIViewController+AMSlideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AMSlideMenu.h"; path = "AMSlideMenu/UIViewController+AMSlideMenu.h"; sourceTree = "<group>"; };
+		9CD6564EDA0CC487F4DD7F0EFA28079C /* CRToastManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastManager.m; path = CRToast/CRToastManager.m; sourceTree = "<group>"; };
+		A13B51BA9F8F10DD8C19BC33EE320E35 /* ionicons-codes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ionicons-codes.h"; path = "ionicons/ionicons-codes.h"; sourceTree = "<group>"; };
+		A2A43FFA0734897E2F351EB676EEEBDC /* ionicons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ionicons.xcconfig; sourceTree = "<group>"; };
+		A470E86679754C392F4A2D5E7E539FE9 /* CRToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRToast-dummy.m"; sourceTree = "<group>"; };
+		A7A71EF081F47A88DCD3303DF4D155F6 /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastLayoutHelpers.h; path = CRToast/CRToastLayoutHelpers.h; sourceTree = "<group>"; };
+		ABF40B4BC7D5D450509EC4EB2D6BCCED /* SFDraggableDialogView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SFDraggableDialogView.xib; path = SFDraggableDialogView/SFDraggableDialogView.xib; sourceTree = "<group>"; };
+		AE3AE25791474B9DE8DD3BD3DFA3B001 /* CRToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToast.h; path = CRToast/CRToast.h; sourceTree = "<group>"; };
+		AEE3A9C8D73AC58ECE8677CF1EEE6CD5 /* AMSlideMenuProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuProtocols.h; path = AMSlideMenu/AMSlideMenuProtocols.h; sourceTree = "<group>"; };
+		B3ACCF924F12E5A6EECC1A8394654621 /* BSKeyboardControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSKeyboardControls-prefix.pch"; sourceTree = "<group>"; };
+		B3FB575BBF4BAC503A976176C1F37FF0 /* AMSlideMenuContentSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuContentSegue.m; path = AMSlideMenu/AMSlideMenuContentSegue.m; sourceTree = "<group>"; };
+		B72838389ACF0B76949B8A30839B1B76 /* ASCScreenBrightnessDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASCScreenBrightnessDetector-dummy.m"; sourceTree = "<group>"; };
+		B87603CEBB39160CF2DDBB60E81A5CB2 /* MMNumberKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMNumberKeyboard-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2FE206A839D26FB19082AF95FC1759C /* AMSlideMenuContentSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuContentSegue.m; path = AMSlideMenu/AMSlideMenuContentSegue.m; sourceTree = "<group>"; };
-		C5921B7398569A69FC00C553591EFE8F /* AMSlideMenuProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuProtocols.h; path = AMSlideMenu/AMSlideMenuProtocols.h; sourceTree = "<group>"; };
-		C7EED2B463ECE90B48E52E41B84A5F3A /* CRToastManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastManager.m; path = CRToast/CRToastManager.m; sourceTree = "<group>"; };
-		E04B2132E4AB5F51F4F1DBFB4EED4119 /* ASCScreenBrightnessDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCScreenBrightnessDetector.h; path = Classes/ASCScreenBrightnessDetector.h; sourceTree = "<group>"; };
-		E504C54F1840AF20E55640996B3AE2F7 /* ASCScreenBrightnessDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASCScreenBrightnessDetector-prefix.pch"; sourceTree = "<group>"; };
-		E5920BC2536749A2229F0BEFDF5A7ED5 /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastLayoutHelpers.h; path = CRToast/CRToastLayoutHelpers.h; sourceTree = "<group>"; };
-		E66B3CDCD13ED18C6273D095A14BA8BE /* CRToastViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastViewController.m; path = CRToast/CRToastViewController.m; sourceTree = "<group>"; };
-		E700347BDB8AB4ABCFF22933526223E3 /* ionicons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ionicons-dummy.m"; sourceTree = "<group>"; };
-		E94492965251B77E5AD07A3E227B083F /* CRToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastConfig.m; path = CRToast/CRToastConfig.m; sourceTree = "<group>"; };
-		EF64484744D60C58049260AB03922F76 /* ionicons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ionicons.xcconfig; sourceTree = "<group>"; };
-		F2EC67F6DC593BD8CE3FD221D586EFF9 /* AMSlideMenuMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuMainViewController.h; path = AMSlideMenu/AMSlideMenuMainViewController.h; sourceTree = "<group>"; };
-		F7FC91226D4394C11C948ED66BE18642 /* BSKeyboardControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSKeyboardControls.h; path = BSKeyboardControls/BSKeyboardControls.h; sourceTree = "<group>"; };
-		FA4BF8DF496D8198436457E4F37312F7 /* AMSlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftTableViewController.h; path = AMSlideMenu/AMSlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
-		FB977F4359F7A972EFDD7CDBC73D1873 /* CRToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRToast.xcconfig; sourceTree = "<group>"; };
-		FF0EEA85DE96DF58A257279E4517141D /* CRToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRToast-prefix.pch"; sourceTree = "<group>"; };
+		BD54DE7341FF4F0A61068020762AE701 /* BSKeyboardControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSKeyboardControls.xcconfig; sourceTree = "<group>"; };
+		C26E7C3FA1B26A988B0B8E0C88D0DEC1 /* AMSlideMenuMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuMainViewController.m; path = AMSlideMenu/AMSlideMenuMainViewController.m; sourceTree = "<group>"; };
+		C35FC3E4CD52EA1047FE0A8887448499 /* SFDraggableDialogView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFDraggableDialogView-dummy.m"; sourceTree = "<group>"; };
+		C39AFCF9F049C807B5C6D738562B2528 /* MMNumberKeyboardDeleteKey@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MMNumberKeyboardDeleteKey@3x.png"; path = "Images/MMNumberKeyboardDeleteKey@3x.png"; sourceTree = "<group>"; };
+		C7E8827820E0F5E92481AC9ABA980741 /* icArrowTop.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icArrowTop.png; path = SFDraggableDialogView/Resources/icArrowTop.png; sourceTree = "<group>"; };
+		C89ECB1D087CC835439D1BA63453564E /* CRToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRToast.xcconfig; sourceTree = "<group>"; };
+		CD11C9208659EDD1A5B202FC84C09A8C /* ionicons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ionicons-dummy.m"; sourceTree = "<group>"; };
+		D1542BFE69F94EE83219D78AC42DE17A /* CRToastWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastWindow.h; path = CRToast/CRToastWindow.h; sourceTree = "<group>"; };
+		D535ADC5B614C5832BBC04C21A9411A0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D63185BA33C1AA2D431B3EED5A2080FA /* ASCScreenBrightnessDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASCScreenBrightnessDetector-prefix.pch"; sourceTree = "<group>"; };
+		DCF54B44D8E3FA72971447BA7EEBF97D /* icArrowTop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icArrowTop@3x.png"; path = "SFDraggableDialogView/Resources/icArrowTop@3x.png"; sourceTree = "<group>"; };
+		DE4167F63636565722E5400056946C02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E01C974DE4775D4BD49707483C584DB1 /* MMNumberKeyboardDeleteKey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MMNumberKeyboardDeleteKey@2x.png"; path = "Images/MMNumberKeyboardDeleteKey@2x.png"; sourceTree = "<group>"; };
+		E267ACDF32CC88F84D38B3C8B92E7042 /* icArrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icArrow.png; path = SFDraggableDialogView/Resources/icArrow.png; sourceTree = "<group>"; };
+		E2C16B459969B7EE92215F526E4704B5 /* CRToastWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastWindow.m; path = CRToast/CRToastWindow.m; sourceTree = "<group>"; };
+		EACA8059DC8D41AD9579BD33B125B0C9 /* Pods-AlcoholTaxRebirth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlcoholTaxRebirth.release.xcconfig"; sourceTree = "<group>"; };
+		EB4D65FF780DC80B67F1CFA3199F9C97 /* BSKeyboardControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSKeyboardControls.h; path = BSKeyboardControls/BSKeyboardControls.h; sourceTree = "<group>"; };
+		ED2E5572002467E5B171C53784BFE907 /* AMSlideMenuRightMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightMenuSegue.m; path = AMSlideMenu/AMSlideMenuRightMenuSegue.m; sourceTree = "<group>"; };
+		F00F48F2E46764842CD98805B57630C0 /* ionicons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ionicons-prefix.pch"; sourceTree = "<group>"; };
+		F182EA871EF2FFDBE6DCFDD65CFD6455 /* SFDraggableDialogView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFDraggableDialogView-prefix.pch"; sourceTree = "<group>"; };
+		F3C20B7D80039A919D621CDD19EE843B /* AMSlideMenuContentSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuContentSegue.h; path = AMSlideMenu/AMSlideMenuContentSegue.h; sourceTree = "<group>"; };
+		F648F74860934B482A3CC66F49D30FBF /* MMNumberKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMNumberKeyboard.xcconfig; sourceTree = "<group>"; };
+		FCAEE0884B4BCB9A4BDA3BAAC263B27C /* BSKeyboardControls.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSKeyboardControls.m; path = BSKeyboardControls/BSKeyboardControls.m; sourceTree = "<group>"; };
+		FDC5F59855E57BC4153FA6CB1A37776C /* Pods-AlcoholTaxRebirth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlcoholTaxRebirth.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3FB1AC51612B9AA03078442688CF9C /* BSKeyboardControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSKeyboardControls-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		046AA762E93C6B8AFD62FEB8BE71EE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE3682963382D8072A4B79051BB8612 /* Foundation.framework in Frameworks */,
+				B1715CF4BE06757AD386925849E9D84B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		162506CADDAF3D700D7F3E9BEA093A89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540394775468C88140E145D11D1A923C /* Foundation.framework in Frameworks */,
+				3553BF164083B8D90442F6E12E4FE531 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DEED0677D871D573680F2983B684DC6 /* Frameworks */ = {
+		2BBCEABF25D27D84C628E284CD5150B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FB0AE71AF4ED8BA17362BADB44E990 /* Foundation.framework in Frameworks */,
+				938A528DABF3DF0C079D5F1C5E7EDDE3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +251,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BF61940E23140875A96CF90EC58116 /* Foundation.framework in Frameworks */,
+				478734F2B669011BD82478DA7E0F0B42 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +259,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59D31AB9E0C1AC8FA5AFA79FC61D2619 /* Foundation.framework in Frameworks */,
+				C96CB8FD14F3E19AEEC623353D6687F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +267,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB7408A7D7EBF04448291470C197105 /* Foundation.framework in Frameworks */,
+				FDC707224180F5AA03D6E9181F3268CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81023B6E105E40D3977EC96DCD88500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A8FE4C4F4B6BC25904C07273EF598 /* Foundation.framework in Frameworks */,
+				C43D23017A8EDCB3C342D31DF4C1B8C8 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,226 +284,306 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EA9051C0ABEE79D3C89A1DB5D67E07 /* Foundation.framework in Frameworks */,
+				28CB3CD9A064D9C74997C8B20EB8903A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+		0DD21D2540491ECB9A3A3E25CCC4ADA5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+				1590EEE282393D7216A2D128CE7205ED /* AMSlideMenu.xcconfig */,
+				8CEBDFF0AD64ADFDBF0FA8E63577F2B1 /* AMSlideMenu-dummy.m */,
+				854D9A313A323131B3315EC8B8167464 /* AMSlideMenu-prefix.pch */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/AMSlideMenu";
 			sourceTree = "<group>";
 		};
-		3FD29CE844536378C088C5B2669FE809 /* ionicons */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1CEA79CA4EE786A3C078B4F76F855E50 /* FontInspector.h */,
-				6E3E9576F46086633EA631B7F0D837B0 /* FontInspector.m */,
-				02BE1A4DED0FDD4A5423F844746B5D19 /* IonIcons.h */,
-				5B97AE0EDC5341E2FD7E5E79500D0622 /* IonIcons.m */,
-				9D6092EEC573BC171654AEA5F5B6BEE3 /* ionicons-codes.h */,
-				74931E8DA68F2F7979DEEC0AD6399288 /* Resources */,
-				F44A324A1F9A921D4564CC832DBEE997 /* Support Files */,
+				52C9FA04E5A891D86DE276A3CD05ED4F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		294698DEC8487C467497CF31E7B02A4E /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				5DF9BBAB30AA63B56A02C73924745F95 /* FontInspector.h */,
+				7C2917EF07011B0997D5D54175D8DBA4 /* FontInspector.m */,
+				45DEC18E12F79B1FD6960F1C625A453D /* IonIcons.h */,
+				473F17A90A83EE93F4DE9E830F827151 /* IonIcons.m */,
+				A13B51BA9F8F10DD8C19BC33EE320E35 /* ionicons-codes.h */,
+				604FCAB02DCFEB023082147E4323035D /* Resources */,
+				43E120CBD7651AB5067FBAA0CA4FED90 /* Support Files */,
 			);
 			path = ionicons;
 			sourceTree = "<group>";
 		};
-		74931E8DA68F2F7979DEEC0AD6399288 /* Resources */ = {
+		29AFF485CF609BB39147D15922322731 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0630FA1625F9F7144C96541B7E126DAC /* ionicons.bundle */,
+				8A789458F7D950B61F30A7A89295091C /* Pods-AlcoholTaxRebirth */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37B319AE551979EC4A965D03252E4E91 /* SFDraggableDialogView */ = {
+			isa = PBXGroup;
+			children = (
+				94EC80BF65C1C41F39570E51F77DC0AD /* SFDraggableDialogView.h */,
+				477479A52A9BF10F9C6E63E5B408670F /* SFDraggableDialogView.m */,
+				341948375814F461BA2A46AD391C10CA /* UIImage+ImageEffects.h */,
+				4E8F34F1BF96E9EC5CFB1EE78CB863B4 /* UIImage+ImageEffects.m */,
+				65F98021CA8671043EFC600A058A89A8 /* Resources */,
+				5DA026D340F6C04BA5423C3B86C81C99 /* Support Files */,
+			);
+			path = SFDraggableDialogView;
+			sourceTree = "<group>";
+		};
+		43E120CBD7651AB5067FBAA0CA4FED90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A43FFA0734897E2F351EB676EEEBDC /* ionicons.xcconfig */,
+				CD11C9208659EDD1A5B202FC84C09A8C /* ionicons-dummy.m */,
+				F00F48F2E46764842CD98805B57630C0 /* ionicons-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ionicons";
+			sourceTree = "<group>";
+		};
+		52C9FA04E5A891D86DE276A3CD05ED4F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE4167F63636565722E5400056946C02 /* Foundation.framework */,
+				D535ADC5B614C5832BBC04C21A9411A0 /* QuartzCore.framework */,
+				4F7CC788C37999CEDD14708117BEC018 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5574AB0AE664FB17470928F4DF4F8AD4 /* CRToast */ = {
+			isa = PBXGroup;
+			children = (
+				AE3AE25791474B9DE8DD3BD3DFA3B001 /* CRToast.h */,
+				7E3F879F6136EFF0F72F70282215AE22 /* CRToastConfig.h */,
+				7BD8DDE5DF5759416F059B94C943C51D /* CRToastConfig.m */,
+				A7A71EF081F47A88DCD3303DF4D155F6 /* CRToastLayoutHelpers.h */,
+				37E8A4DBCD6E5EBE7E0414B56384DC20 /* CRToastManager.h */,
+				9CD6564EDA0CC487F4DD7F0EFA28079C /* CRToastManager.m */,
+				7A512243E1B45BE3BBAA4C4DFC8BEEB2 /* CRToastView.h */,
+				76DA3458B9AAA23EE27859A424E1C4FD /* CRToastView.m */,
+				7D43B9C9105DB78E5465AF3EA5537F2E /* CRToastViewController.h */,
+				6A0CDBDD4766530F9E8AC47AEC8401F9 /* CRToastViewController.m */,
+				D1542BFE69F94EE83219D78AC42DE17A /* CRToastWindow.h */,
+				E2C16B459969B7EE92215F526E4704B5 /* CRToastWindow.m */,
+				B5F8B84BCE8CD6253CE429423E7C1E84 /* Support Files */,
+			);
+			path = CRToast;
+			sourceTree = "<group>";
+		};
+		5DA026D340F6C04BA5423C3B86C81C99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D62F7DD0386777B29FF9ACA25E3027 /* SFDraggableDialogView.xcconfig */,
+				C35FC3E4CD52EA1047FE0A8887448499 /* SFDraggableDialogView-dummy.m */,
+				F182EA871EF2FFDBE6DCFDD65CFD6455 /* SFDraggableDialogView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SFDraggableDialogView";
+			sourceTree = "<group>";
+		};
+		604FCAB02DCFEB023082147E4323035D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FD0437CCF689288567D08CF1F30D0 /* ionicons.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		65F98021CA8671043EFC600A058A89A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E267ACDF32CC88F84D38B3C8B92E7042 /* icArrow.png */,
+				1931EB2288EA5766E537BDEECD69C7BF /* icArrow@2x.png */,
+				4A9AA7A9AE61EEEFBE2EE077F16A487D /* icArrow@3x.png */,
+				C7E8827820E0F5E92481AC9ABA980741 /* icArrowTop.png */,
+				58CA568F7C88FF50E15B65A142672D28 /* icArrowTop@2x.png */,
+				DCF54B44D8E3FA72971447BA7EEBF97D /* icArrowTop@3x.png */,
+				060DF14CCB9ED70F0444A68E30407BD0 /* icCross@2x.png */,
+				ABF40B4BC7D5D450509EC4EB2D6BCCED /* SFDraggableDialogView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6F406E8420BE11604C9416F98F8E9214 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3CEFEB949AE936B3E75D70EB5CE77 /* AMSlideMenu */,
+				DA9C13D978DCAB3A2424FBA097852331 /* ASCScreenBrightnessDetector */,
+				FFC594CBC5E2DB9C3CDDBDE28E8813C9 /* BSKeyboardControls */,
+				5574AB0AE664FB17470928F4DF4F8AD4 /* CRToast */,
+				294698DEC8487C467497CF31E7B02A4E /* ionicons */,
+				97E6C28981FAFFE45F409712D7176AC2 /* MMNumberKeyboard */,
+				37B319AE551979EC4A965D03252E4E91 /* SFDraggableDialogView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F7893F41043E33691C05C88FF0A8B5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD54DE7341FF4F0A61068020762AE701 /* BSKeyboardControls.xcconfig */,
+				FF3FB1AC51612B9AA03078442688CF9C /* BSKeyboardControls-dummy.m */,
+				B3ACCF924F12E5A6EECC1A8394654621 /* BSKeyboardControls-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BSKeyboardControls";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				96D258516C54C8023636E1958CC6217F /* Pods */,
-				ADCE331727D46D26B9573111FAE81FAF /* Products */,
-				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				6F406E8420BE11604C9416F98F8E9214 /* Pods */,
+				D5A30CCE3214B3845E928BA968541FB9 /* Products */,
+				29AFF485CF609BB39147D15922322731 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		826359CE8808BF9EA7E09BBE0372B7B9 /* Support Files */ = {
+		821739A411BB7F9A4DA72A215A1B3B2A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB977F4359F7A972EFDD7CDBC73D1873 /* CRToast.xcconfig */,
-				6B6284CC011714AA3A3DB6BEF8BD7712 /* CRToast-dummy.m */,
-				FF0EEA85DE96DF58A257279E4517141D /* CRToast-prefix.pch */,
+				F648F74860934B482A3CC66F49D30FBF /* MMNumberKeyboard.xcconfig */,
+				B87603CEBB39160CF2DDBB60E81A5CB2 /* MMNumberKeyboard-dummy.m */,
+				8245B4399B406069357DF115FA3A7EAD /* MMNumberKeyboard-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CRToast";
+			path = "../Target Support Files/MMNumberKeyboard";
 			sourceTree = "<group>";
 		};
-		8A941EF76CCE6B9335A4CE3BE6376C4A /* Support Files */ = {
+		8A789458F7D950B61F30A7A89295091C /* Pods-AlcoholTaxRebirth */ = {
 			isa = PBXGroup;
 			children = (
-				1115283A4283BDF676984847C83C82F5 /* ASCScreenBrightnessDetector.xcconfig */,
-				A258638B3798FDFBD888A56C2FD4036D /* ASCScreenBrightnessDetector-dummy.m */,
-				E504C54F1840AF20E55640996B3AE2F7 /* ASCScreenBrightnessDetector-prefix.pch */,
+				834FD9E9668322888A7F136A1260F224 /* Pods-AlcoholTaxRebirth-acknowledgements.markdown */,
+				8ADB86EA6CE33F50397ED8C720FF3BD2 /* Pods-AlcoholTaxRebirth-acknowledgements.plist */,
+				5F9512690D10052D60B7DE60113A817E /* Pods-AlcoholTaxRebirth-dummy.m */,
+				8E81B8D862F69AB703BDAC8AAAEC1AEB /* Pods-AlcoholTaxRebirth-frameworks.sh */,
+				1D04E82FBDD335DAA584C86AE40216C7 /* Pods-AlcoholTaxRebirth-resources.sh */,
+				FDC5F59855E57BC4153FA6CB1A37776C /* Pods-AlcoholTaxRebirth.debug.xcconfig */,
+				EACA8059DC8D41AD9579BD33B125B0C9 /* Pods-AlcoholTaxRebirth.release.xcconfig */,
+			);
+			name = "Pods-AlcoholTaxRebirth";
+			path = "Target Support Files/Pods-AlcoholTaxRebirth";
+			sourceTree = "<group>";
+		};
+		97E6C28981FAFFE45F409712D7176AC2 /* MMNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				61A5518D33E53889A63546D9559E057D /* MMNumberKeyboard.h */,
+				8F7D4F296633C8FBDF1A1F8A1C5DD421 /* MMNumberKeyboard.m */,
+				B28BE51FCF91A24AB33C50BB179EB90C /* Resources */,
+				821739A411BB7F9A4DA72A215A1B3B2A /* Support Files */,
+			);
+			path = MMNumberKeyboard;
+			sourceTree = "<group>";
+		};
+		B28BE51FCF91A24AB33C50BB179EB90C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F62FC406C9D1161EA2C8B61BDE01062 /* MMNumberKeyboardDeleteKey.png */,
+				E01C974DE4775D4BD49707483C584DB1 /* MMNumberKeyboardDeleteKey@2x.png */,
+				C39AFCF9F049C807B5C6D738562B2528 /* MMNumberKeyboardDeleteKey@3x.png */,
+				851D08C21D4F61A21394D0F929CBAF49 /* MMNumberKeyboardDismissKey.png */,
+				0E46312CB2729DCF3BC96DF39CBB1FF0 /* MMNumberKeyboardDismissKey@2x.png */,
+				22C367A0A3ED7D889B8609BD676DE47C /* MMNumberKeyboardDismissKey@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B5A595E5561B3C47CF2470FCD51771A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36819C12DC893A3ECBD3D4CAAFB3EEF0 /* ASCScreenBrightnessDetector.xcconfig */,
+				B72838389ACF0B76949B8A30839B1B76 /* ASCScreenBrightnessDetector-dummy.m */,
+				D63185BA33C1AA2D431B3EED5A2080FA /* ASCScreenBrightnessDetector-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ASCScreenBrightnessDetector";
 			sourceTree = "<group>";
 		};
-		96D258516C54C8023636E1958CC6217F /* Pods */ = {
+		B5F8B84BCE8CD6253CE429423E7C1E84 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF802F4A8E5A4FFFB02D950CE7F70BDD /* AMSlideMenu */,
-				9E663A640558CB4974225CFE4AB34671 /* ASCScreenBrightnessDetector */,
-				CBC35517EEF860C4FD0FB19FD2AFC5CB /* BSKeyboardControls */,
-				9947055F872364B0965F42F9055A803D /* CRToast */,
-				3FD29CE844536378C088C5B2669FE809 /* ionicons */,
+				C89ECB1D087CC835439D1BA63453564E /* CRToast.xcconfig */,
+				A470E86679754C392F4A2D5E7E539FE9 /* CRToast-dummy.m */,
+				78A00CD024E3340712F221A7561B759A /* CRToast-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/CRToast";
 			sourceTree = "<group>";
 		};
-		9947055F872364B0965F42F9055A803D /* CRToast */ = {
+		BFE3CEFEB949AE936B3E75D70EB5CE77 /* AMSlideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				7656E1FE4B856DA1D3AE7F4C596D423B /* CRToast.h */,
-				5F37BFC83B9EE5CDACC6641BD09D7FB5 /* CRToastConfig.h */,
-				E94492965251B77E5AD07A3E227B083F /* CRToastConfig.m */,
-				E5920BC2536749A2229F0BEFDF5A7ED5 /* CRToastLayoutHelpers.h */,
-				00B6E9679A0D1033BE66B4D2F034F3D9 /* CRToastManager.h */,
-				C7EED2B463ECE90B48E52E41B84A5F3A /* CRToastManager.m */,
-				597DE741EA2315DE9B71DD463F82BD38 /* CRToastView.h */,
-				0F1465A8BF14FDD105CD2C01D1631412 /* CRToastView.m */,
-				284A7EB78FCF4C813B15A8FED39183F8 /* CRToastViewController.h */,
-				E66B3CDCD13ED18C6273D095A14BA8BE /* CRToastViewController.m */,
-				6FBB89D90E27332FB3ABF3D3F0CF2CE0 /* CRToastWindow.h */,
-				A1B894C6A9C9394DDE7003F189508894 /* CRToastWindow.m */,
-				826359CE8808BF9EA7E09BBE0372B7B9 /* Support Files */,
+				F3C20B7D80039A919D621CDD19EE843B /* AMSlideMenuContentSegue.h */,
+				B3FB575BBF4BAC503A976176C1F37FF0 /* AMSlideMenuContentSegue.m */,
+				2180C97FC934BBEA757E7EBFE4222CB8 /* AMSlideMenuLeftMenuSegue.h */,
+				66B8029EB4CB5A8FA63D7E041E5BFF5D /* AMSlideMenuLeftMenuSegue.m */,
+				8D7E8583B6B77438771AC9E1129C6D4B /* AMSlideMenuLeftTableViewController.h */,
+				5EF8E8D8DA3CA43FE075078078B9E450 /* AMSlideMenuLeftTableViewController.m */,
+				17064123EE134C09DBCE29492875C2D4 /* AMSlideMenuMainViewController.h */,
+				C26E7C3FA1B26A988B0B8E0C88D0DEC1 /* AMSlideMenuMainViewController.m */,
+				AEE3A9C8D73AC58ECE8677CF1EEE6CD5 /* AMSlideMenuProtocols.h */,
+				3FBD679B95E467C4CA75F57D8ADD7878 /* AMSlideMenuRightMenuSegue.h */,
+				ED2E5572002467E5B171C53784BFE907 /* AMSlideMenuRightMenuSegue.m */,
+				8395470DD35AC672A5F46833B21A8189 /* AMSlideMenuRightTableViewController.h */,
+				1D00C2EE7B15AAA96FC7E4B487B0FE59 /* AMSlideMenuRightTableViewController.m */,
+				9AC8E746ED3C5ECAFB42DEBAEC336CCA /* UIViewController+AMSlideMenu.h */,
+				7429393474DD5153C8B81A8F4072034D /* UIViewController+AMSlideMenu.m */,
+				0DD21D2540491ECB9A3A3E25CCC4ADA5 /* Support Files */,
 			);
-			path = CRToast;
+			path = AMSlideMenu;
 			sourceTree = "<group>";
 		};
-		9E663A640558CB4974225CFE4AB34671 /* ASCScreenBrightnessDetector */ = {
+		D5A30CCE3214B3845E928BA968541FB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E04B2132E4AB5F51F4F1DBFB4EED4119 /* ASCScreenBrightnessDetector.h */,
-				04B339497B3D182EBF93087060219CFE /* ASCScreenBrightnessDetector.m */,
-				8A941EF76CCE6B9335A4CE3BE6376C4A /* Support Files */,
-			);
-			path = ASCScreenBrightnessDetector;
-			sourceTree = "<group>";
-		};
-		ADCE331727D46D26B9573111FAE81FAF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8A7E8C6C6C98FD62FB7CA8D13E78F07D /* libAMSlideMenu.a */,
-				B668291AC2E97CE0FC36F001573474CD /* libASCScreenBrightnessDetector.a */,
-				B1F9C92DF878326AEB26C78176483B8D /* libBSKeyboardControls.a */,
-				07BF4147290638065D547A0E3596C3C5 /* libCRToast.a */,
-				5F37FE3B468E24FE91B95441AB097C7B /* libionicons.a */,
-				9E56DCB35C139A8F90577B1D7812E7E2 /* libPods.a */,
+				27B14FF53123449F7284DBE8C08557ED /* libAMSlideMenu.a */,
+				95660D506A372B78BE5E22B2B4D0C78A /* libASCScreenBrightnessDetector.a */,
+				953EBC6C172FEFE33A4E0CD9CAC8D008 /* libBSKeyboardControls.a */,
+				3595A6C477272494D562A034FD5D6041 /* libCRToast.a */,
+				723F90A4DDDE0C504D87B4FAC7709186 /* libionicons.a */,
+				4CB2903E58F9CE870403EDF3C267A478 /* libMMNumberKeyboard.a */,
+				23121AF39298924D875B90F20D796AC0 /* libPods-AlcoholTaxRebirth.a */,
+				94E4559BC2957F07D34E4B48F5BFB3DD /* libSFDraggableDialogView.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2D2041730445280E81701352AC05956 /* Support Files */ = {
+		DA9C13D978DCAB3A2424FBA097852331 /* ASCScreenBrightnessDetector */ = {
 			isa = PBXGroup;
 			children = (
-				08DB38006DC846E33430022353914C89 /* AMSlideMenu.xcconfig */,
-				026ED2D672CAC1CB8DA20071ACF4323A /* AMSlideMenu-dummy.m */,
-				49814F5F7A4C14846DE865536B101CC4 /* AMSlideMenu-prefix.pch */,
+				9068A492C13169C7A6D41582E3B52771 /* ASCScreenBrightnessDetector.h */,
+				46B93C43CE594DAFCE3875509A7B3E2C /* ASCScreenBrightnessDetector.m */,
+				B5A595E5561B3C47CF2470FCD51771A2 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AMSlideMenu";
+			path = ASCScreenBrightnessDetector;
 			sourceTree = "<group>";
 		};
-		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+		FFC594CBC5E2DB9C3CDDBDE28E8813C9 /* BSKeyboardControls */ = {
 			isa = PBXGroup;
 			children = (
-				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
-				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
-				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
-				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
-				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
-				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
-				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CBC35517EEF860C4FD0FB19FD2AFC5CB /* BSKeyboardControls */ = {
-			isa = PBXGroup;
-			children = (
-				F7FC91226D4394C11C948ED66BE18642 /* BSKeyboardControls.h */,
-				26FA99DD861F7FC7257CD363F41A18E8 /* BSKeyboardControls.m */,
-				E3ED3AEDAD39DDC0B29D0334E2A2B6E1 /* Support Files */,
+				EB4D65FF780DC80B67F1CFA3199F9C97 /* BSKeyboardControls.h */,
+				FCAEE0884B4BCB9A4BDA3BAAC263B27C /* BSKeyboardControls.m */,
+				6F7893F41043E33691C05C88FF0A8B5D /* Support Files */,
 			);
 			path = BSKeyboardControls;
-			sourceTree = "<group>";
-		};
-		E3ED3AEDAD39DDC0B29D0334E2A2B6E1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				890D90E4DD44CAEEA0B48DC077B01017 /* BSKeyboardControls.xcconfig */,
-				6F7D0049D767D96C7FACD2546600800C /* BSKeyboardControls-dummy.m */,
-				2C0A55215778141BA79FCBD800793B31 /* BSKeyboardControls-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BSKeyboardControls";
-			sourceTree = "<group>";
-		};
-		F44A324A1F9A921D4564CC832DBEE997 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF64484744D60C58049260AB03922F76 /* ionicons.xcconfig */,
-				E700347BDB8AB4ABCFF22933526223E3 /* ionicons-dummy.m */,
-				3BEA9EBD2099ECB5FC3F690246A853B3 /* ionicons-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ionicons";
-			sourceTree = "<group>";
-		};
-		FF802F4A8E5A4FFFB02D950CE7F70BDD /* AMSlideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				7B704A7C4FC2D5A774AC16C57DE29971 /* AMSlideMenuContentSegue.h */,
-				C2FE206A839D26FB19082AF95FC1759C /* AMSlideMenuContentSegue.m */,
-				660105929935BF676E5777C88E4D1E29 /* AMSlideMenuLeftMenuSegue.h */,
-				A40193491F206C0E60C21E6BF692AEB9 /* AMSlideMenuLeftMenuSegue.m */,
-				FA4BF8DF496D8198436457E4F37312F7 /* AMSlideMenuLeftTableViewController.h */,
-				3B85E56F1572430D4C98B35215BAD23D /* AMSlideMenuLeftTableViewController.m */,
-				F2EC67F6DC593BD8CE3FD221D586EFF9 /* AMSlideMenuMainViewController.h */,
-				96BA33DDADF5A06232588077FAFBDD97 /* AMSlideMenuMainViewController.m */,
-				C5921B7398569A69FC00C553591EFE8F /* AMSlideMenuProtocols.h */,
-				9398709CF9C1FE95384EF9DA4D0DDCD1 /* AMSlideMenuRightMenuSegue.h */,
-				8EA6D759EA6C85023312853A87C3A241 /* AMSlideMenuRightMenuSegue.m */,
-				93230ED1DF2E1D7379FE6C5F978D77E8 /* AMSlideMenuRightTableViewController.h */,
-				14398C392AA524033994D5FD38817038 /* AMSlideMenuRightTableViewController.m */,
-				553D7C3788BB656103B5D25DDCFE5D79 /* UIViewController+AMSlideMenu.h */,
-				426D9FD463167FFB51B2669EBF5D8F2F /* UIViewController+AMSlideMenu.m */,
-				B2D2041730445280E81701352AC05956 /* Support Files */,
-			);
-			path = AMSlideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,6 +644,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2C7C85E4E3E77C94B9AE28CD98D734D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4632F553A6D32A8B4EE37897CEFCF00 /* MMNumberKeyboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D023DC041866CB6CA1D3D21B79FA9764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1997208569FA13CC1222A49A778893 /* SFDraggableDialogView.h in Headers */,
+				C11EA0C738AA6F8376FC652DF2ED9F6F /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -507,7 +678,7 @@
 			);
 			name = ionicons;
 			productName = ionicons;
-			productReference = 5F37FE3B468E24FE91B95441AB097C7B /* libionicons.a */;
+			productReference = 723F90A4DDDE0C504D87B4FAC7709186 /* libionicons.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		648CB6012D2E77295DBA5CFD70910991 /* ASCScreenBrightnessDetector */ = {
@@ -524,7 +695,7 @@
 			);
 			name = ASCScreenBrightnessDetector;
 			productName = ASCScreenBrightnessDetector;
-			productReference = B668291AC2E97CE0FC36F001573474CD /* libASCScreenBrightnessDetector.a */;
+			productReference = 95660D506A372B78BE5E22B2B4D0C78A /* libASCScreenBrightnessDetector.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7112751ACED56349A420B879DDAD76F8 /* CRToast */ = {
@@ -541,7 +712,47 @@
 			);
 			name = CRToast;
 			productName = CRToast;
-			productReference = 07BF4147290638065D547A0E3596C3C5 /* libCRToast.a */;
+			productReference = 3595A6C477272494D562A034FD5D6041 /* libCRToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7EB7C2A8516B820DE3ADEC30115FA090 /* Pods-AlcoholTaxRebirth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A321EBA88A68906AD9A063E83586955 /* Build configuration list for PBXNativeTarget "Pods-AlcoholTaxRebirth" */;
+			buildPhases = (
+				074DF01F2EB2B756766F2A189DE4ECB3 /* Sources */,
+				2BBCEABF25D27D84C628E284CD5150B2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6A5C2B1DA2FDA4FF1F30584FC9B43B /* PBXTargetDependency */,
+				E8318C2293DB11931E31982DC3E8E181 /* PBXTargetDependency */,
+				52FB8DE9CB866AEC6F5BA1A4E83917D9 /* PBXTargetDependency */,
+				15E33851744B49FD0CD4810BBBCB8A5C /* PBXTargetDependency */,
+				67FE8082CC25F8F4638F7AF0E8570EF2 /* PBXTargetDependency */,
+				F6C30C944E5A253601FF8C2C948B7C2C /* PBXTargetDependency */,
+				6FF9B06FAE251EFACB2BC432DFC17746 /* PBXTargetDependency */,
+			);
+			name = "Pods-AlcoholTaxRebirth";
+			productName = "Pods-AlcoholTaxRebirth";
+			productReference = 23121AF39298924D875B90F20D796AC0 /* libPods-AlcoholTaxRebirth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84D260F81845A16EC9E9E0C8CD55DD63 /* MMNumberKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B074FB5A717CFA7172C497A2BAEC6470 /* Build configuration list for PBXNativeTarget "MMNumberKeyboard" */;
+			buildPhases = (
+				78B0284AC0358A528FF8E3D6D67D3A37 /* Sources */,
+				B81023B6E105E40D3977EC96DCD88500 /* Frameworks */,
+				C2C7C85E4E3E77C94B9AE28CD98D734D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMNumberKeyboard;
+			productName = MMNumberKeyboard;
+			productReference = 4CB2903E58F9CE870403EDF3C267A478 /* libMMNumberKeyboard.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8A276839C0003B5F0F3ECD19F3C111CF /* AMSlideMenu */ = {
@@ -558,28 +769,24 @@
 			);
 			name = AMSlideMenu;
 			productName = AMSlideMenu;
-			productReference = 8A7E8C6C6C98FD62FB7CA8D13E78F07D /* libAMSlideMenu.a */;
+			productReference = 27B14FF53123449F7284DBE8C08557ED /* libAMSlideMenu.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D1F71BCF9A7C56AD0DD9E6A98EE119EC /* Pods */ = {
+		CBE193C3439B5EA5E94F697F72732A3D /* SFDraggableDialogView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4421A64BA68BD7C8C40C9CC255C05984 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = D098CF729982BD4AC0B8129D3DCF419F /* Build configuration list for PBXNativeTarget "SFDraggableDialogView" */;
 			buildPhases = (
-				90D409DDC41C5901DA1A789E39FB5565 /* Sources */,
-				3DEED0677D871D573680F2983B684DC6 /* Frameworks */,
+				E6E7E6D1C6F0503E5E9EE594383FE216 /* Sources */,
+				046AA762E93C6B8AFD62FEB8BE71EE40 /* Frameworks */,
+				D023DC041866CB6CA1D3D21B79FA9764 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D81CDC0483B76D419DBF82A53E7427B /* PBXTargetDependency */,
-				15E82BD607DFDAFE5F73950119013EC3 /* PBXTargetDependency */,
-				6C2BD741BB25BAD925E9C04D883E6AAD /* PBXTargetDependency */,
-				7E5849CC5CDD06096397DF035837626C /* PBXTargetDependency */,
-				2F73F8B73FCE17F8E0DE54D24E326164 /* PBXTargetDependency */,
 			);
-			name = Pods;
-			productName = Pods;
-			productReference = 9E56DCB35C139A8F90577B1D7812E7E2 /* libPods.a */;
+			name = SFDraggableDialogView;
+			productName = SFDraggableDialogView;
+			productReference = 94E4559BC2957F07D34E4B48F5BFB3DD /* libSFDraggableDialogView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F7571BCEC9BE2B766A5AEFB580A5784B /* BSKeyboardControls */ = {
@@ -596,7 +803,7 @@
 			);
 			name = BSKeyboardControls;
 			productName = BSKeyboardControls;
-			productReference = B1F9C92DF878326AEB26C78176483B8D /* libBSKeyboardControls.a */;
+			productReference = 953EBC6C172FEFE33A4E0CD9CAC8D008 /* libBSKeyboardControls.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -605,7 +812,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -616,7 +823,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = ADCE331727D46D26B9573111FAE81FAF /* Products */;
+			productRefGroup = D5A30CCE3214B3845E928BA968541FB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -625,7 +832,9 @@
 				F7571BCEC9BE2B766A5AEFB580A5784B /* BSKeyboardControls */,
 				7112751ACED56349A420B879DDAD76F8 /* CRToast */,
 				084B1FF8E099CDDF6B5FD3169504D512 /* ionicons */,
-				D1F71BCF9A7C56AD0DD9E6A98EE119EC /* Pods */,
+				84D260F81845A16EC9E9E0C8CD55DD63 /* MMNumberKeyboard */,
+				7EB7C2A8516B820DE3ADEC30115FA090 /* Pods-AlcoholTaxRebirth */,
+				CBE193C3439B5EA5E94F697F72732A3D /* SFDraggableDialogView */,
 			);
 		};
 /* End PBXProject section */
@@ -643,6 +852,14 @@
 				48BC6206E830A4107465DF52C79CA2FF /* AMSlideMenuRightMenuSegue.m in Sources */,
 				51542CE10980B255F91C15993B12D598 /* AMSlideMenuRightTableViewController.m in Sources */,
 				40004E546CCF62DB361D3F2E6AE6EA1D /* UIViewController+AMSlideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074DF01F2EB2B756766F2A189DE4ECB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F59E9769CCA71457A64D519E3A56E8D /* Pods-AlcoholTaxRebirth-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +885,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78B0284AC0358A528FF8E3D6D67D3A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1733E83DED924899ED5171A9742E10 /* MMNumberKeyboard-dummy.m in Sources */,
+				A374CDE7262E31BC33A73076B0EC04DB /* MMNumberKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		879FCE2C7D1EF78CB39C25F5E276AAB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -675,14 +901,6 @@
 				C1007E25FDD5EE896494ADD3E88B6850 /* FontInspector.m in Sources */,
 				4D6DB2F1C1580619A151B1F0AE36CCE1 /* ionicons-dummy.m in Sources */,
 				F50250E56C301387438BD172870D0C90 /* IonIcons.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90D409DDC41C5901DA1A789E39FB5565 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9706F1CB9D01C2D7473C81573809F559 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,119 +913,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6E7E6D1C6F0503E5E9EE594383FE216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA04488FAC387C3B435C7A228A59163 /* SFDraggableDialogView-dummy.m in Sources */,
+				242BE7D1B5BA6DD81E0D0D705387F537 /* SFDraggableDialogView.m in Sources */,
+				87D2009768EA8EDC529ECC5CB4453A05 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15E82BD607DFDAFE5F73950119013EC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ASCScreenBrightnessDetector;
-			target = 648CB6012D2E77295DBA5CFD70910991 /* ASCScreenBrightnessDetector */;
-			targetProxy = 64D3ED54C953D080684FB2B87B45EFB7 /* PBXContainerItemProxy */;
-		};
-		2D81CDC0483B76D419DBF82A53E7427B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AMSlideMenu;
-			target = 8A276839C0003B5F0F3ECD19F3C111CF /* AMSlideMenu */;
-			targetProxy = C3F186824C7E5809E8E7E68496769E1F /* PBXContainerItemProxy */;
-		};
-		2F73F8B73FCE17F8E0DE54D24E326164 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ionicons;
-			target = 084B1FF8E099CDDF6B5FD3169504D512 /* ionicons */;
-			targetProxy = E38EC3FC4244D9BF88F1B57B8E40DD58 /* PBXContainerItemProxy */;
-		};
-		6C2BD741BB25BAD925E9C04D883E6AAD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BSKeyboardControls;
-			target = F7571BCEC9BE2B766A5AEFB580A5784B /* BSKeyboardControls */;
-			targetProxy = 7BF8DC569AA8DE9F4F4DCD2A5C63B893 /* PBXContainerItemProxy */;
-		};
-		7E5849CC5CDD06096397DF035837626C /* PBXTargetDependency */ = {
+		15E33851744B49FD0CD4810BBBCB8A5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CRToast;
 			target = 7112751ACED56349A420B879DDAD76F8 /* CRToast */;
-			targetProxy = 3341C07B1D9A06A35987C4A4919A3790 /* PBXContainerItemProxy */;
+			targetProxy = BDC9867D6BEB2F2FEB7CBF7C5FE41A0B /* PBXContainerItemProxy */;
+		};
+		52FB8DE9CB866AEC6F5BA1A4E83917D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSKeyboardControls;
+			target = F7571BCEC9BE2B766A5AEFB580A5784B /* BSKeyboardControls */;
+			targetProxy = F83891007BD6E0F019A5A090C1F69555 /* PBXContainerItemProxy */;
+		};
+		67FE8082CC25F8F4638F7AF0E8570EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMNumberKeyboard;
+			target = 84D260F81845A16EC9E9E0C8CD55DD63 /* MMNumberKeyboard */;
+			targetProxy = 619A183470A37CB29327D66610D9E36A /* PBXContainerItemProxy */;
+		};
+		6FF9B06FAE251EFACB2BC432DFC17746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ionicons;
+			target = 084B1FF8E099CDDF6B5FD3169504D512 /* ionicons */;
+			targetProxy = 35B70E0CBEA1483AED188EAFB7870E4D /* PBXContainerItemProxy */;
+		};
+		AF6A5C2B1DA2FDA4FF1F30584FC9B43B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMSlideMenu;
+			target = 8A276839C0003B5F0F3ECD19F3C111CF /* AMSlideMenu */;
+			targetProxy = 08AF04E2DC5BC66B969BAF4663CAF6B1 /* PBXContainerItemProxy */;
+		};
+		E8318C2293DB11931E31982DC3E8E181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASCScreenBrightnessDetector;
+			target = 648CB6012D2E77295DBA5CFD70910991 /* ASCScreenBrightnessDetector */;
+			targetProxy = 4CF5090EBC0A1A39F6857CEF0E37C005 /* PBXContainerItemProxy */;
+		};
+		F6C30C944E5A253601FF8C2C948B7C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFDraggableDialogView;
+			target = CBE193C3439B5EA5E94F697F72732A3D /* SFDraggableDialogView */;
+			targetProxy = 247DA174211CDEA47DF0A29387540B98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E65D5DE3F0BA4A67FEF778176B85888 /* Release */ = {
+		04066D5B1D1B36A4FB9A07DD66BDA5B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1115283A4283BDF676984847C83C82F5 /* ASCScreenBrightnessDetector.xcconfig */;
+			baseConfigurationReference = BD54DE7341FF4F0A61068020762AE701 /* BSKeyboardControls.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ASCScreenBrightnessDetector/ASCScreenBrightnessDetector-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		40396EC56847C821773E6ECCADA87283 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08DB38006DC846E33430022353914C89 /* AMSlideMenu.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AMSlideMenu/AMSlideMenu-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4160921EBBF2775C1204697F2322CE83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		58DECEE644B9D5D206998128E4292063 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5BF33FC8BBA7432BFA3925217E2AE8E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 890D90E4DD44CAEEA0B48DC077B01017 /* BSKeyboardControls.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/BSKeyboardControls/BSKeyboardControls-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -819,14 +992,17 @@
 			};
 			name = Debug;
 		};
-		92A352621EE92958D53BF187313A2099 /* Debug */ = {
+		1D80CC9E529F213D0F9A1B706194EC13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB977F4359F7A972EFDD7CDBC73D1873 /* CRToast.xcconfig */;
+			baseConfigurationReference = 20D62F7DD0386777B29FF9ACA25E3027 /* SFDraggableDialogView.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CRToast/CRToast-prefix.pch";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SFDraggableDialogView/SFDraggableDialogView-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -835,15 +1011,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		9F452498ED30FA5B0AC7CB51B32F4340 /* Debug */ = {
+		38FE64ED46B0FEBE295F3714FE2DA516 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1115283A4283BDF676984847C83C82F5 /* ASCScreenBrightnessDetector.xcconfig */;
+			baseConfigurationReference = 36819C12DC893A3ECBD3D4CAAFB3EEF0 /* ASCScreenBrightnessDetector.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ASCScreenBrightnessDetector/ASCScreenBrightnessDetector-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -855,124 +1034,37 @@
 			};
 			name = Debug;
 		};
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+		610D3AFD615B230A7FDD3AD8F060982F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89ECB1D087CC835439D1BA63453564E /* CRToast.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B6F37821FA5D9E167D7285E801ECE09C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 890D90E4DD44CAEEA0B48DC077B01017 /* BSKeyboardControls.xcconfig */;
-			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BSKeyboardControls/BSKeyboardControls-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C260A42DF7262FCCAED4089C5DE09DEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF64484744D60C58049260AB03922F76 /* ionicons.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ionicons/ionicons-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		DBD5AD24B97E2E333FF4CBEC48FCF07F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08DB38006DC846E33430022353914C89 /* AMSlideMenu.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AMSlideMenu/AMSlideMenu-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E4AAD73D084950605EFD2B1982B47139 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF64484744D60C58049260AB03922F76 /* ionicons.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ionicons/ionicons-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F5555C3A4709148B62B5C537E8D9D135 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB977F4359F7A972EFDD7CDBC73D1873 /* CRToast.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CRToast/CRToast-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		66402F07C32EF9F568B6B1CE8A11D905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89ECB1D087CC835439D1BA63453564E /* CRToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CRToast/CRToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -984,7 +1076,7 @@
 			};
 			name = Release;
 		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1004,7 +1096,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1018,14 +1113,286 @@
 			};
 			name = Release;
 		};
+		851C8F29BAAD5FB29DD393A03B8DE5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D62F7DD0386777B29FF9ACA25E3027 /* SFDraggableDialogView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SFDraggableDialogView/SFDraggableDialogView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93978FAE904C951F736A4984EE2D49E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD54DE7341FF4F0A61068020762AE701 /* BSKeyboardControls.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BSKeyboardControls/BSKeyboardControls-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA7739BB3817D97FD794E3D7EA1DAB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A43FFA0734897E2F351EB676EEEBDC /* ionicons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ionicons/ionicons-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC6C6F65A25325BF7D9082A9B0BEDFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1590EEE282393D7216A2D128CE7205ED /* AMSlideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMSlideMenu/AMSlideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B0D558826A42AA37F411864C31CB3D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A43FFA0734897E2F351EB676EEEBDC /* ionicons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ionicons/ionicons-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BD4EA77DC4AD3D1F868266626F518493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACA8059DC8D41AD9579BD33B125B0C9 /* Pods-AlcoholTaxRebirth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C41B3BF740871278BAC8EC4A3CBF0451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC5F59855E57BC4153FA6CB1A37776C /* Pods-AlcoholTaxRebirth.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D4637CEC56D2822BE66F75D93FE0E54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F648F74860934B482A3CC66F49D30FBF /* MMNumberKeyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMNumberKeyboard/MMNumberKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDE2F0EB2C567C96044C88CE3FE6D893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1590EEE282393D7216A2D128CE7205ED /* AMSlideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMSlideMenu/AMSlideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF400FEB90AF4510771942CDADC21821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36819C12DC893A3ECBD3D4CAAFB3EEF0 /* ASCScreenBrightnessDetector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASCScreenBrightnessDetector/ASCScreenBrightnessDetector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E3B420B277CEE2DB3461D13219E49D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F648F74860934B482A3CC66F49D30FBF /* MMNumberKeyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMNumberKeyboard/MMNumberKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2A4A3F85305A411034B032E6CA31ADE7 /* Build configuration list for PBXNativeTarget "ASCScreenBrightnessDetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F452498ED30FA5B0AC7CB51B32F4340 /* Debug */,
-				2E65D5DE3F0BA4A67FEF778176B85888 /* Release */,
+				38FE64ED46B0FEBE295F3714FE2DA516 /* Debug */,
+				DF400FEB90AF4510771942CDADC21821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1033,8 +1400,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1042,17 +1409,17 @@
 		35CAD06970F952762AA315955E5ACF29 /* Build configuration list for PBXNativeTarget "BSKeyboardControls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BF33FC8BBA7432BFA3925217E2AE8E9 /* Debug */,
-				B6F37821FA5D9E167D7285E801ECE09C /* Release */,
+				04066D5B1D1B36A4FB9A07DD66BDA5B5 /* Debug */,
+				93978FAE904C951F736A4984EE2D49E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4421A64BA68BD7C8C40C9CC255C05984 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		9A321EBA88A68906AD9A063E83586955 /* Build configuration list for PBXNativeTarget "Pods-AlcoholTaxRebirth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4160921EBBF2775C1204697F2322CE83 /* Debug */,
-				58DECEE644B9D5D206998128E4292063 /* Release */,
+				C41B3BF740871278BAC8EC4A3CBF0451 /* Debug */,
+				BD4EA77DC4AD3D1F868266626F518493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1060,8 +1427,26 @@
 		A667B1E8AEAFB23E2CB0D571B2AE4A02 /* Build configuration list for PBXNativeTarget "AMSlideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40396EC56847C821773E6ECCADA87283 /* Debug */,
-				DBD5AD24B97E2E333FF4CBEC48FCF07F /* Release */,
+				AC6C6F65A25325BF7D9082A9B0BEDFC6 /* Debug */,
+				DDE2F0EB2C567C96044C88CE3FE6D893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B074FB5A717CFA7172C497A2BAEC6470 /* Build configuration list for PBXNativeTarget "MMNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B420B277CEE2DB3461D13219E49D2F /* Debug */,
+				D4637CEC56D2822BE66F75D93FE0E54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D098CF729982BD4AC0B8129D3DCF419F /* Build configuration list for PBXNativeTarget "SFDraggableDialogView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851C8F29BAAD5FB29DD393A03B8DE5D1 /* Debug */,
+				1D80CC9E529F213D0F9A1B706194EC13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1069,8 +1454,8 @@
 		E21D10306B52DCF0B835F873237C9DD7 /* Build configuration list for PBXNativeTarget "CRToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92A352621EE92958D53BF187313A2099 /* Debug */,
-				F5555C3A4709148B62B5C537E8D9D135 /* Release */,
+				610D3AFD615B230A7FDD3AD8F060982F /* Debug */,
+				66402F07C32EF9F568B6B1CE8A11D905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1078,8 +1463,8 @@
 		F4049CDAEAD9D12B0F440FB4D7B95E1E /* Build configuration list for PBXNativeTarget "ionicons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4AAD73D084950605EFD2B1982B47139 /* Debug */,
-				C260A42DF7262FCCAED4089C5DE09DEF /* Release */,
+				B0D558826A42AA37F411864C31CB3D15 /* Debug */,
+				AA7739BB3817D97FD794E3D7EA1DAB57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

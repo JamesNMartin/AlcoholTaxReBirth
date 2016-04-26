@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A622E412B91D7112AA0F8C /* libPods-AlcoholTaxRebirth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D172E75566937055918ABB /* libPods-AlcoholTaxRebirth.a */; };
 		AC083C481A82E60A00959ADA /* BottleTaxes.m in Sources */ = {isa = PBXBuildFile; fileRef = AC083C471A82E60A00959ADA /* BottleTaxes.m */; };
-		AC2032261AE05EBA009E0BBF /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032211AE05EBA009E0BBF /* icon180.png */; };
-		AC2032271AE05EBA009E0BBF /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032221AE05EBA009E0BBF /* icon58.png */; };
-		AC2032281AE05EBA009E0BBF /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032231AE05EBA009E0BBF /* icon120.png */; };
-		AC2032291AE05EBA009E0BBF /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032241AE05EBA009E0BBF /* icon80.png */; };
-		AC20322A1AE05EBA009E0BBF /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2032251AE05EBA009E0BBF /* icon87.png */; };
 		AC4F29AE1A8296290082EA50 /* AffordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4F29AD1A8296290082EA50 /* AffordViewController.m */; };
 		AC4F90AD1AD34BCD00C812B1 /* SplitBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4F90AC1AD34BCD00C812B1 /* SplitBillViewController.m */; };
 		AC6467C51BEFD433009F2ED2 /* SupportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6467C41BEFD433009F2ED2 /* SupportTableViewController.m */; };
@@ -24,7 +20,11 @@
 		ACCA29241ACCB6DD00E4804B /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCA29211ACCB6DD00E4804B /* MainVC.m */; };
 		ACCA29251ACCB6DD00E4804B /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCA29231ACCB6DD00E4804B /* LeftMenuVC.m */; };
 		ACCA292D1ACCDC1700E4804B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCA292C1ACCDC1700E4804B /* Images.xcassets */; };
-		B4C62329FF9169A1C766CB44 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B7B870FCB4A4AEE55EA90D /* libPods.a */; };
+		ACED44811CCDDF7B0045522D /* icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = ACED447C1CCDDF7B0045522D /* icon-180.png */; };
+		ACED44821CCDDF7B0045522D /* icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = ACED447D1CCDDF7B0045522D /* icon-58.png */; };
+		ACED44831CCDDF7B0045522D /* icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = ACED447E1CCDDF7B0045522D /* icon-80.png */; };
+		ACED44841CCDDF7B0045522D /* icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = ACED447F1CCDDF7B0045522D /* icon-87.png */; };
+		ACED44851CCDDF7B0045522D /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = ACED44801CCDDF7B0045522D /* icon-120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,14 +51,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9C65BDF58A22503208DF9756 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		52D172E75566937055918ABB /* libPods-AlcoholTaxRebirth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlcoholTaxRebirth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC083C461A82E57C00959ADA /* BottleTaxes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottleTaxes.h; sourceTree = "<group>"; };
 		AC083C471A82E60A00959ADA /* BottleTaxes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottleTaxes.m; sourceTree = "<group>"; };
-		AC2032211AE05EBA009E0BBF /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
-		AC2032221AE05EBA009E0BBF /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
-		AC2032231AE05EBA009E0BBF /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
-		AC2032241AE05EBA009E0BBF /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
-		AC2032251AE05EBA009E0BBF /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
 		AC4F29AC1A8296290082EA50 /* AffordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffordViewController.h; sourceTree = "<group>"; };
 		AC4F29AD1A8296290082EA50 /* AffordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffordViewController.m; sourceTree = "<group>"; };
 		AC4F90AB1AD34BCD00C812B1 /* SplitBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitBillViewController.h; sourceTree = "<group>"; };
@@ -88,8 +83,13 @@
 		ACD76D441AEC111000A30C7F /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
 		ACD76D451AEC111000A30C7F /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		ACD76D471AEC111000A30C7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EEBB64AFC327EEB81EE20172 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		F8B7B870FCB4A4AEE55EA90D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACED447C1CCDDF7B0045522D /* icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-180.png"; sourceTree = "<group>"; };
+		ACED447D1CCDDF7B0045522D /* icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-58.png"; sourceTree = "<group>"; };
+		ACED447E1CCDDF7B0045522D /* icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-80.png"; sourceTree = "<group>"; };
+		ACED447F1CCDDF7B0045522D /* icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-87.png"; sourceTree = "<group>"; };
+		ACED44801CCDDF7B0045522D /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
+		C9F75065F4E890E6E895071D /* Pods-AlcoholTaxRebirth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlcoholTaxRebirth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlcoholTaxRebirth/Pods-AlcoholTaxRebirth.debug.xcconfig"; sourceTree = "<group>"; };
+		E10FDA2E8AA0D02ED9E25916 /* Pods-AlcoholTaxRebirth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlcoholTaxRebirth.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlcoholTaxRebirth/Pods-AlcoholTaxRebirth.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C62329FF9169A1C766CB44 /* libPods.a in Frameworks */,
+				06A622E412B91D7112AA0F8C /* libPods-AlcoholTaxRebirth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,21 +111,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05368BFF5BC894CBEB6009AE /* Pods */ = {
+		74C0FDC24B7BD37FEDF24361 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EEBB64AFC327EEB81EE20172 /* Pods.debug.xcconfig */,
-				9C65BDF58A22503208DF9756 /* Pods.release.xcconfig */,
+				C9F75065F4E890E6E895071D /* Pods-AlcoholTaxRebirth.debug.xcconfig */,
+				E10FDA2E8AA0D02ED9E25916 /* Pods-AlcoholTaxRebirth.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		A2860EF4B8F116B07266968B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F8B7B870FCB4A4AEE55EA90D /* libPods.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ACBBF24C1A81711D00921A3B = {
@@ -135,8 +127,8 @@
 				ACBBF2711A81711E00921A3B /* AlcoholTaxRebirthTests */,
 				ACD76D3D1AEC111000A30C7F /* Alcohol Tax WatchKit Extension */,
 				ACBBF2561A81711E00921A3B /* Products */,
-				05368BFF5BC894CBEB6009AE /* Pods */,
-				A2860EF4B8F116B07266968B /* Frameworks */,
+				74C0FDC24B7BD37FEDF24361 /* Pods */,
+				F96BCEA9965DD32915438F50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,11 +170,11 @@
 		ACBBF2581A81711E00921A3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC2032211AE05EBA009E0BBF /* icon180.png */,
-				AC2032221AE05EBA009E0BBF /* icon58.png */,
-				AC2032231AE05EBA009E0BBF /* icon120.png */,
-				AC2032241AE05EBA009E0BBF /* icon80.png */,
-				AC2032251AE05EBA009E0BBF /* icon87.png */,
+				ACED447C1CCDDF7B0045522D /* icon-180.png */,
+				ACED447D1CCDDF7B0045522D /* icon-58.png */,
+				ACED447E1CCDDF7B0045522D /* icon-80.png */,
+				ACED447F1CCDDF7B0045522D /* icon-87.png */,
+				ACED44801CCDDF7B0045522D /* icon-120.png */,
 				ACBBF2591A81711E00921A3B /* Info.plist */,
 				ACBBF25A1A81711E00921A3B /* main.m */,
 			);
@@ -228,6 +220,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F96BCEA9965DD32915438F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D172E75566937055918ABB /* libPods-AlcoholTaxRebirth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,13 +235,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACBBF2781A81711E00921A3B /* Build configuration list for PBXNativeTarget "AlcoholTaxRebirth" */;
 			buildPhases = (
-				12CC28D578D110AC0D0A1CC8 /* Check Pods Manifest.lock */,
+				7645880D04072E68B446F986 /* Check Pods Manifest.lock */,
 				ACBBF2511A81711E00921A3B /* Sources */,
 				ACBBF2521A81711E00921A3B /* Frameworks */,
 				ACBBF2531A81711E00921A3B /* Resources */,
-				C1707085F071135F37A8515E /* Copy Pods Resources */,
 				ACD76D601AEC111000A30C7F /* Embed App Extensions */,
-				C2FBA008D3C3E303EBF92BA7 /* Embed Pods Frameworks */,
+				9B5C0E38A8BF384A77BD79A3 /* Embed Pods Frameworks */,
+				7A6BAB11AC3FA32DC71A618B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,13 +313,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC20322A1AE05EBA009E0BBF /* icon87.png in Resources */,
 				ACCA292D1ACCDC1700E4804B /* Images.xcassets in Resources */,
-				AC2032281AE05EBA009E0BBF /* icon120.png in Resources */,
-				AC2032291AE05EBA009E0BBF /* icon80.png in Resources */,
+				ACED44831CCDDF7B0045522D /* icon-80.png in Resources */,
 				ACBBF2641A81711E00921A3B /* Main.storyboard in Resources */,
-				AC2032261AE05EBA009E0BBF /* icon180.png in Resources */,
-				AC2032271AE05EBA009E0BBF /* icon58.png in Resources */,
+				ACED44841CCDDF7B0045522D /* icon-87.png in Resources */,
+				ACED44821CCDDF7B0045522D /* icon-58.png in Resources */,
+				ACED44811CCDDF7B0045522D /* icon-180.png in Resources */,
+				ACED44851CCDDF7B0045522D /* icon-120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +333,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12CC28D578D110AC0D0A1CC8 /* Check Pods Manifest.lock */ = {
+		7645880D04072E68B446F986 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,7 +348,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C1707085F071135F37A8515E /* Copy Pods Resources */ = {
+		7A6BAB11AC3FA32DC71A618B /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,10 +360,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlcoholTaxRebirth/Pods-AlcoholTaxRebirth-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C2FBA008D3C3E303EBF92BA7 /* Embed Pods Frameworks */ = {
+		9B5C0E38A8BF384A77BD79A3 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,7 +375,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlcoholTaxRebirth/Pods-AlcoholTaxRebirth-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -507,7 +507,7 @@
 		};
 		ACBBF2791A81711E00921A3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEBB64AFC327EEB81EE20172 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = C9F75065F4E890E6E895071D /* Pods-AlcoholTaxRebirth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -523,7 +523,7 @@
 		};
 		ACBBF27A1A81711E00921A3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C65BDF58A22503208DF9756 /* Pods.release.xcconfig */;
+			baseConfigurationReference = E10FDA2E8AA0D02ED9E25916 /* Pods-AlcoholTaxRebirth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

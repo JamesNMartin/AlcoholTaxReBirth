@@ -4,6 +4,8 @@ PODS:
   - BSKeyboardControls (2.2)
   - CRToast (0.0.9)
   - ionicons (2.0.3)
+  - MMNumberKeyboard (0.1.4)
+  - SFDraggableDialogView (1.1.4)
 
 DEPENDENCIES:
   - AMSlideMenu
@@ -11,6 +13,8 @@ DEPENDENCIES:
   - BSKeyboardControls
   - CRToast
   - ionicons
+  - MMNumberKeyboard
+  - SFDraggableDialogView
 
 SPEC CHECKSUMS:
   AMSlideMenu: 8571937703d2b8e187b22c1416be4cafc3532a11
@@ -18,5 +22,9 @@ SPEC CHECKSUMS:
   BSKeyboardControls: b701935e789961102e3f20063bba7185800a2d3f
   CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
   ionicons: ec1e86e6c3316bd9942a7f024080dd75c70dd6a5
+  MMNumberKeyboard: 417cbf2626a946e3bbbc60f8e4bd175dae4e69f4
+  SFDraggableDialogView: cfe9b80b5fff19f7e0fda86dcabee8b03a4c3b44
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: d0d20f0ff6d3bed0374616b536076c823b7e32e6
+
+COCOAPODS: 1.0.0.beta.4

@@ -14,8 +14,9 @@
 #import "BottleTaxes.h"
 #import <AMSlideMenuProtocols.h>
 #import "BSKeyboardControls.h"
+#import "SFDraggableDialogView.h"
 
-@interface ViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate, UITextFieldDelegate, UITextViewDelegate,BSKeyboardControlsDelegate>
+@interface ViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate, UITextFieldDelegate, UITextViewDelegate,BSKeyboardControlsDelegate,SFDraggableDialogViewDelegate>
 
 
 //KEYBOARD CONTROLS NEEDS THIS ####################################

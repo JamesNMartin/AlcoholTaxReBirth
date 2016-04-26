@@ -39,6 +39,7 @@
 /*----------------------------------------------------*/
 #pragma mark - Lifecycle -
 /*----------------------------------------------------*/
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -53,6 +54,7 @@
     NSLog(@"This methos is only for NON storyboard use! You must define AMSlideMenuWithoutStoryboards \n (e.g. #define AMSlideMenuWithoutStoryboards)");
 #endif
 }
+
 
 /*----------------------------------------------------*/
 #pragma mark - TableView Delegate -

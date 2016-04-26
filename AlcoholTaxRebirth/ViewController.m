@@ -70,6 +70,26 @@ double stateTax;
     [alert show];
     
     
+//    SFDraggableDialogView *dialogView = [[[NSBundle mainBundle] loadNibNamed:@"SFDraggableDialogView" owner:self options:nil] firstObject];
+//    dialogView.frame = self.view.bounds;
+//    dialogView.photo = [UIImage imageNamed:@"icon-180"];
+//    dialogView.delegate = self;
+//    dialogView.titleText = [[NSMutableAttributedString alloc] initWithString:@"Help"];
+//    dialogView.messageText = [self exampleAttributeString];
+//    dialogView.firstBtnText = [@"See results" uppercaseString];
+//    dialogView.dialogBackgroundColor = [UIColor whiteColor];
+//    dialogView.cornerRadius = 8.0;
+//    dialogView.backgroundShadowOpacity = 0.2;
+//    dialogView.hideCloseButton = true;
+//    dialogView.showSecondBtn = false;
+//    [dialogView.heightAnchor constraintEqualToConstant:100].active = true;
+//    [dialogView.widthAnchor constraintEqualToConstant:70].active = true;
+//    dialogView.contentViewType = SFContentViewTypeDefault;
+//    dialogView.firstBtnBackgroundColor = [UIColor colorWithRed:0.230 green:0.777 blue:0.316 alpha:1.000];
+//    
+//    [self.view addSubview:dialogView];
+    
+    
     
     /*
     UIActionSheet *actionsheet = [[UIActionSheet alloc]initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"E-Mail",@"How to Use",@"Rate Me", nil];
@@ -121,6 +141,13 @@ double stateTax;
     }
 }
  */
+- (NSMutableAttributedString *)exampleAttributeString {
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"You have won"];
+    [attributedString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:21.0] range:NSMakeRange(9, 3)];
+    [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:0.230 green:0.777 blue:0.316 alpha:1.000] range:NSMakeRange(9, 3)];
+    
+    return attributedString;
+}
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
 {
     switch (result)
@@ -344,7 +371,7 @@ double stateTax;
     self.keyboardControls.doneTintColor = [UIColor colorWithRed:0.15 green:0.41 blue:0.69 alpha:1.00];
     
     [_salePrice becomeFirstResponder];
-    
+
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.15 green:0.41 blue:0.69 alpha:1.00];
     //self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
 
